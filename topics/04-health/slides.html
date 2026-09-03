@@ -1,0 +1,3031 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-html/tabby.min.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/light-border.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
+  <meta name="generator" content="quarto-1.10.18">
+
+  <meta name="author" content="Alex Hollingsworth">
+  <title>ECON 1101 · Big Data &amp; Social Problems – Health</title>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+  <link rel="stylesheet" href="../../site_libs/revealjs/dist/reset.css">
+  <link rel="stylesheet" href="../../site_libs/revealjs/dist/reveal.css">
+  <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: 1.5em;}
+    div.column{flex: auto;}
+    @media screen {
+    div.columns{gap: min(4vw, 1.5em);}
+    div.column{overflow-x: auto;}
+    }
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+      vertical-align: middle;
+    }
+  </style>
+  <link rel="stylesheet" href="../../site_libs/revealjs/dist/theme/quarto-318c42177b47cc6c00bff4924b0f3b56.css">
+  <link href="../../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
+  <link href="../../site_libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
+  <link href="../../site_libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
+  <link href="../../site_libs/revealjs/plugin/quarto-support/footer.css" rel="stylesheet">
+  <style type="text/css">
+    .reveal div.sourceCode {
+      margin: 0;
+      overflow: auto;
+    }
+    .reveal div.hanging-indent {
+      margin-left: 1em;
+      text-indent: -1em;
+    }
+    .reveal .slide:not(.center) {
+      height: 100%;
+    }
+    .reveal .slide.scrollable {
+      overflow-y: auto;
+    }
+    .reveal .footnotes {
+      height: 100%;
+      overflow-y: auto;
+    }
+    .reveal .slide .absolute {
+      position: absolute;
+      display: block;
+    }
+    .reveal .footnotes ol {
+      counter-reset: ol;
+      list-style-type: none; 
+      margin-left: 0;
+    }
+    .reveal .footnotes ol li:before {
+      counter-increment: ol;
+      content: counter(ol) ". "; 
+    }
+    .reveal .footnotes ol li > p:first-child {
+      display: inline-block;
+    }
+    .reveal .slide ul,
+    .reveal .slide ol {
+      margin-bottom: 0.5em;
+    }
+    .reveal .slide ul li,
+    .reveal .slide ol li {
+      margin-top: 0.4em;
+      margin-bottom: 0.2em;
+    }
+    .reveal .slide ul[role="tablist"] li {
+      margin-bottom: 0;
+    }
+    .reveal .slide ul li > *:first-child,
+    .reveal .slide ol li > *:first-child {
+      margin-block-start: 0;
+    }
+    .reveal .slide ul li > *:last-child,
+    .reveal .slide ol li > *:last-child {
+      margin-block-end: 0;
+    }
+    .reveal .slide .columns:nth-child(3) {
+      margin-block-start: 0.8em;
+    }
+    .reveal blockquote {
+      box-shadow: none;
+    }
+    .reveal .tippy-content>* {
+      margin-top: 0.2em;
+      margin-bottom: 0.7em;
+    }
+    .reveal .tippy-content>*:last-child {
+      margin-bottom: 0.2em;
+    }
+    .reveal .slide > img.stretch.quarto-figure-center,
+    .reveal .slide > img.r-stretch.quarto-figure-center {
+      display: block;
+      margin-left: auto;
+      margin-right: auto; 
+    }
+    .reveal .slide > img.stretch.quarto-figure-left,
+    .reveal .slide > img.r-stretch.quarto-figure-left  {
+      display: block;
+      margin-left: 0;
+      margin-right: auto; 
+    }
+    .reveal .slide > img.stretch.quarto-figure-right,
+    .reveal .slide > img.r-stretch.quarto-figure-right  {
+      display: block;
+      margin-left: auto;
+      margin-right: 0; 
+    }
+  </style>
+  <meta name="robots" content="noindex, nofollow">
+</head>
+<body class="quarto-light">
+  <div class="reveal">
+    <div class="slides">
+
+<section id="title-slide" data-background-image="../../assets/banner-bg.jpg" class="quarto-title-block center">
+  <h1 class="title">Health</h1>
+  <p class="subtitle">ECON 1101 · Autumn 2026</p>
+
+<div class="quarto-title-authors">
+<div class="quarto-title-author">
+<div class="quarto-title-author-name">
+Alex Hollingsworth
+</div>
+</div>
+</div>
+
+</section>
+<section id="sources-and-attribution-1-of-2" class="slide level2 smaller">
+<h2>Sources and attribution (1 of 2)</h2>
+<div style="font-size:0.8em;">
+<p><strong>Any use of these materials should cite those original sources.</strong></p>
+</div>
+<div style="font-size:0.45em; line-height:1.28;">
+<p><strong>Papers discussed in this deck:</strong></p>
+<ul>
+<li>Cutler, Deaton, and Lleras-Muney (2006). “The Determinants of Mortality.” <em>Journal of Economic Perspectives</em> 20(3): 97–120.</li>
+<li>Catillon, Cutler, and Getzen (2018). “Two Hundred Years of Health and Medical Care: The Importance of Medical Care for Life Expectancy Gains.” NBER Working Paper 25330.</li>
+<li>Chetty, Stepner, Abraham, Lin, Scuderi, Turner, Bergeron, and Cutler (2016). “The Association Between Income and Life Expectancy in the United States, 2001–2014.” <em>JAMA</em> 315(16): 1750–1766.</li>
+<li>Hollingsworth, Karbownik, Thomasson, and Wray (2024). “The Gift of a Lifetime: The Hospital, Modern Medicine, and Mortality.” <em>American Economic Review</em> 114(7): 2201–2238.</li>
+<li>Akerlof (1970). “The Market for ‘Lemons’: Quality Uncertainty and the Market Mechanism.” <em>Quarterly Journal of Economics</em> 84(3): 488–500.</li>
+<li>Cutler and Reber (1998). “Paying for Health Insurance: The Trade-Off between Competition and Adverse Selection.” <em>Quarterly Journal of Economics</em> 113(2): 433–466.</li>
+<li>Finkelstein, Taubman, Wright, Bernstein, Gruber, Newhouse, Allen, and Baicker (2012). “The Oregon Health Insurance Experiment: Evidence from the First Year.” <em>Quarterly Journal of Economics</em> 127(3): 1057–1106.</li>
+<li>Baicker, Taubman, Allen, Bernstein, Gruber, Newhouse, Schneider, Wright, Zaslavsky, and Finkelstein (2013). “The Oregon Experiment — Effects of Medicaid on Clinical Outcomes.” <em>New England Journal of Medicine</em> 368(18): 1713–1722.</li>
+<li>Taubman, Allen, Wright, Baicker, and Finkelstein (2014). “Medicaid Increases Emergency-Department Use: Evidence from Oregon’s Health Insurance Experiment.” <em>Science</em> 343(6168): 263–268.</li>
+</ul>
+</div>
+</section>
+<section id="sources-and-attribution-2-of-2" class="slide level2 smaller">
+<h2>Sources and attribution (2 of 2)</h2>
+<div style="font-size:0.45em; line-height:1.28;">
+<p><strong>Papers discussed in this deck (continued):</strong></p>
+<ul>
+<li>Goldin, Lurie, and McCubbin (2021). “Health Insurance and Mortality: Experimental Evidence from Taxpayer Outreach.” <em>Quarterly Journal of Economics</em> 136(1): 1–49.</li>
+<li>Finkelstein, Hendren, and Shepard (2019). “Subsidizing Health Insurance for Low-Income Adults: Evidence from Massachusetts.” <em>American Economic Review</em> 109(4): 1530–1567.</li>
+<li>Hollingsworth, Ruhm, and Simon (2017). “Macroeconomic Conditions and Opioid Abuse.” <em>Journal of Health Economics</em> 56: 222–233.</li>
+<li>Goldstick, Cunningham, and Carter (2022). “Current Causes of Death in Children and Adolescents in the United States.” <em>New England Journal of Medicine</em> 386(20): 1955–1956.</li>
+<li>Alpert, Evans, Lieber, and Powell (2022). “Origins of the Opioid Crisis and Its Enduring Impacts.” <em>Quarterly Journal of Economics</em> 137(2): 1139–1179.</li>
+<li>Sacks, Hollingsworth, Nguyen, and Simon (2021). “Can Policy Affect Initiation of Addictive Substance Use? Evidence from Opioid Prescribing.” <em>Journal of Health Economics</em> 76: 102397.</li>
+<li>Evans, Lieber, and Power (2019). “How the Reformulation of OxyContin Ignited the Heroin Epidemic.” <em>Review of Economics and Statistics</em> 101(1): 1–15.</li>
+<li>Buchmueller and Carey (2018). “The Effect of Prescription Drug Monitoring Programs on Opioid Utilization in Medicare.” <em>American Economic Journal: Economic Policy</em> 10(1): 77–112.</li>
+<li>Moore and Schnepel (2026). “Opioid Use, Mortality Risks, and Crime: Insights from a Rapid Reduction in Heroin Supply.” <em>Review of Economics and Statistics</em> 108(4): 948–966.</li>
+</ul>
+<p><em>Much of the material in these notes is adapted from other sources — in particular Raj Chetty’s course <a href="https://opportunityinsights.org/course/">“Using Big Data to Solve Economic and Social Problems”</a> (used with permission, along with André Kurmann’s Drexel adaptation).</em></p>
+<p><strong>Other sources:</strong> Beyond the published papers, this deck draws on Raj Chetty’s “Using Big Data to Solve Economic and Social Problems” lecture slides (several figures are re-used directly, as the <code>lecture-17-</code>, <code>lecture-18-</code>, and <code>lecture-19-</code> image filenames show), the Feldstein health-production-function and Santerre–Neun demand-curve diagrams from standard health economics texts, OECD Health Statistics and OECD Health Data, the Peterson-KFF Health System Tracker and Kaiser Family Foundation actuarial-value tables, the BLS Employee Benefits Survey (March 2025) and Ohio State Office of Human Resources 2023 benefits materials, a Policygenius health-insurance-literacy survey, CDC mortality and opioid-prescribing data plus DEA and International Narcotics Control Board material, and news graphics from <em>The New York Times</em> (including David Leonhardt’s May 3, 2017 column “The New Study That Shows Trumpcare’s Damage”), <em>The Economist</em>, and Sam Quinones’s book <em>Dreamland</em>.</p>
+</div>
+</section>
+<section id="in-this-unit" class="slide level2">
+<h2>In this unit</h2>
+<ul>
+<li><p>Improving health outcomes</p></li>
+<li><p>Health insurance I: adverse selection and insurance markets</p></li>
+<li><p>Health insurance II: the Oregon experiment and Medicaid</p></li>
+<li><p>Health insurance III: subsidies and policy design</p></li>
+<li><p>The opioid crisis and drug policy</p></li>
+</ul>
+</section>
+<section>
+<section id="session-s13" class="title-slide slide level1 osu-section center">
+<h1>Improving health outcomes</h1>
+
+</section>
+<section id="todays-question" class="slide level2">
+<h2>Today’s question</h2>
+<blockquote>
+<p>Why do rich Americans live 15 years longer than poor Americans — and what actually improves health?</p>
+</blockquote>
+<ul>
+<li>New part of the course: <strong>Health</strong></li>
+<li>Economics usually tracks earnings and wealth, but most people rank <strong>health and length of life</strong> among the most important parts of well-being</li>
+<li>Guiding question for this part: what interventions actually improve health, holding the frontier of medical technology fixed?</li>
+</ul>
+</section>
+<section id="where-were-headed" class="slide level2">
+<h2>Where we’re headed</h2>
+<ul>
+<li>But first: <strong>in-class quiz on Project 2</strong> (TopHat)</li>
+<li>Two centuries of falling mortality — and what drove each era</li>
+<li>Chetty et al.&nbsp;(2016): life expectancy by income, built with <strong>hazard models</strong> (today’s method)</li>
+<li>Geography: where low-income Americans live longest — behaviors vs. health care</li>
+<li><em>The Gift of a Lifetime</em> (Hollingsworth et al.&nbsp;2024, today’s reading): the setup for <strong>Project 3</strong></li>
+</ul>
+</section></section>
+<section>
+<section id="two-centuries-of-longer-lives" class="title-slide slide level1 osu-section center">
+<h1>Two centuries of longer lives</h1>
+
+</section>
+<section id="three-eras-of-mortality-decline" class="slide level2">
+<h2>Three eras of mortality decline</h2>
+<img data-src="img/three-eras-of-mortality-decline.jpg" class="r-stretch" alt="Timeline from 1750 to 2020 split into three eras of life-expectancy improvement: improved nutrition (about 4 years gained, 1750-1850), public health and sanitation (about 27 years, 1850-1950), and medical care (about 9 years, 1950 on), with a quote that formal medicine played almost no part in better health in 1900.">
+<div class="osu-src">
+<p>Source: Cutler, Deaton, and Lleras-Muney (2006).</p>
+</div>
+</section>
+<section id="forty-years-of-life-in-two-centuries" class="slide level2">
+<h2>Forty years of life in two centuries</h2>
+<ul>
+<li>Roughly <strong>40 years</strong> of life expectancy gained in 200 years — and most of it arrived <em>before</em> modern medicine</li>
+</ul>
+</section>
+<section id="inside-the-eras-what-could-medicine-do" class="slide level2">
+<h2>Inside the eras: what could medicine do?</h2>
+<img data-src="img/three-eras-medical-milestones.jpg" class="r-stretch" alt="Three-era timeline annotated with milestones: Koch's postulates and the X-ray in the late 1800s, the Flexner report around 1910, and sulfa drugs in the late 1930s. Era 1 hospitals are described as places where the poor went to die; by era 3 the hospital is central to the practice of medicine.">
+<div class="osu-src">
+<p>Source: Cutler, Deaton, and Lleras-Muney (2006).</p>
+</div>
+</section>
+<section id="the-hospitals-transformation" class="slide level2">
+<h2>The hospital’s transformation</h2>
+<ul>
+<li>Hospitals went from “where the poor went to die” to the <strong>center of medical practice</strong> — keep this transformation in mind for Project 3</li>
+</ul>
+</section>
+<section id="the-infant-mortality-moonshot" class="slide level2">
+<h2>The infant mortality moonshot</h2>
+<img data-src="img/infant-mortality-moonshot.jpg" class="r-stretch" alt="Line chart of U.S. infant mortality per 1,000 births from 1850 to 2020 for white and Black infants. Both series fall from over 200 (white) and over 300 (Black) to under 15, an enormous decline, though a Black-white gap persists the entire period.">
+</section>
+<section id="from-1-in-5-to-fewer-than-1-in-100" class="slide level2">
+<h2>From 1 in 5 to fewer than 1 in 100</h2>
+<ul>
+<li>From roughly 1 in 5 infants dying to fewer than 1 in 100</li>
+<li>A persistent Black–white gap runs through the whole series</li>
+</ul>
+</section>
+<section id="causes-of-death-since-1900" class="slide level2">
+<h2>Causes of death since 1900</h2>
+<img data-src="img/mortality-by-cause-1900-2015.jpg" class="r-stretch" alt="Line chart of deaths per 100,000 by cause from 1900 to 2015. Pneumonia and influenza collapse after the 1918 spike; heart disease climbs to a 1963 peak near 600 then falls by more than two-thirds; cancer rises slowly then plateaus; cerebrovascular disease declines steadily.">
+<div class="osu-src">
+<p>Source: Catillon, Cutler, and Getzen (2018).</p>
+</div>
+</section>
+<section id="two-collapses-one-success-story" class="slide level2">
+<h2>Two collapses, one success story</h2>
+<ul>
+<li>Infectious disease collapses in era 2; cardiovascular mortality falls by two-thirds after its <strong>1963</strong> peak — a genuine medical success story</li>
+</ul>
+</section>
+<section id="hospitals-from-the-fringes-to-the-center" class="slide level2">
+<h2>Hospitals: from the fringes to the center</h2>
+<img data-src="img/hospital-healthcare-share-gdp.jpg" class="r-stretch" alt="Line chart from 1750 to 2020 showing health care spending as a share of GDP flat near 2 to 3 percent until about 1950, then rising steeply to nearly 20 percent, with hospitals alone rising from under 1 percent to about 6 percent.">
+</section>
+<section id="from-3-of-gdp-to-nearly-20" class="slide level2">
+<h2>From 3% of GDP to nearly 20%</h2>
+<ul>
+<li>Health care: from ~3% of GDP in 1950 to nearly <strong>20%</strong> today</li>
+<li>Estimates attribute roughly <strong>5 years</strong> of U.S. life-expectancy gains since 1950 to medical care</li>
+</ul>
+</section></section>
+<section>
+<section id="does-more-spending-buy-more-health" class="title-slide slide level1 osu-section center">
+<h1>Does more spending buy more health?</h1>
+
+</section>
+<section id="a-health-production-function" class="slide level2">
+<h2>A health production function</h2>
+<img data-src="img/health-production-function.jpg" class="r-stretch" alt="Concave curve of health against medical expenditures. Moving from point A to B on the steep part yields a large health gain for little money; moving from C to D on the flat part yields almost no gain despite large spending.">
+<div class="osu-src">
+<p>Source: Feldstein.</p>
+</div>
+</section>
+<section id="reading-the-curve" class="slide level2">
+<h2>Reading the curve</h2>
+<ul>
+<li>Public-health-style interventions sit on the <strong>steep</strong> part: big gains for little money (A to B)</li>
+<li>On the <strong>flat of the curve</strong>, extra spending buys little extra health (C to D)</li>
+<li>Key policy question: where is the U.S. on this curve?</li>
+</ul>
+</section>
+<section id="tophat-which-country-has-the-lowest-life-expectancy-at-birth" class="slide level2">
+<h2>TopHat: Which country has the <em>lowest</em> life expectancy at birth?</h2>
+<ul>
+<li><strong>A:</strong> United States</li>
+<li><strong>B:</strong> Germany</li>
+<li><strong>C:</strong> Canada</li>
+<li><strong>D:</strong> Japan</li>
+<li>One fact before you vote: the U.S. spends about <strong>$10,300 per person per year</strong> on health care — roughly double comparable countries</li>
+</ul>
+</section>
+<section id="the-answer" class="slide level2 smaller">
+<h2>The answer</h2>
+<table class="caption-top">
+<thead>
+<tr class="header">
+<th>Country</th>
+<th>Life expectancy (2013)</th>
+<th>Infant deaths per 1,000 births</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>US</strong></td>
+<td><strong>78.8</strong></td>
+<td><strong>6.0</strong></td>
+</tr>
+<tr class="even">
+<td>Germany</td>
+<td>80.9</td>
+<td>3.3</td>
+</tr>
+<tr class="odd">
+<td>UK</td>
+<td>81.1</td>
+<td>3.8</td>
+</tr>
+<tr class="even">
+<td>Canada</td>
+<td>81.5</td>
+<td>4.8</td>
+</tr>
+<tr class="odd">
+<td>France</td>
+<td>82.3</td>
+<td>3.6</td>
+</tr>
+<tr class="even">
+<td>Japan</td>
+<td>83.4</td>
+<td>2.1</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>Highest spending, lowest life expectancy, highest infant mortality of the group (OECD Health Data 2015)</li>
+</ul>
+</section>
+<section id="across-countries-the-u.s.-is-an-outlier" class="slide level2">
+<h2>Across countries, the U.S. is an outlier</h2>
+<img data-src="img/oecd-spending-vs-life-expectancy.jpg" class="r-stretch" alt="Scatterplot of life expectancy against health spending per capita for dozens of countries with a concave fitted curve. Most rich countries cluster near the curve around 3,000 to 6,000 dollars; the USA sits far to the right at about 8,500 dollars but below the curve at about 79 years.">
+<div class="osu-src">
+<p>Source: OECD Health Statistics (2013).</p>
+</div>
+</section>
+<section id="off-the-curve-and-below-it" class="slide level2">
+<h2>Off the curve — and below it</h2>
+<ul>
+<li>The U.S. sits far out on the flat of the curve — and <em>below</em> it</li>
+<li>Spending alone clearly isn’t the whole story — so what else drives health? That’s today’s real question</li>
+</ul>
+</section></section>
+<section>
+<section id="income-and-life-expectancy" class="title-slide slide level1 osu-section center">
+<h1>Income and life expectancy</h1>
+
+</section>
+<section id="chetty-et-al.-2016-the-question-and-the-data" class="slide level2">
+<h2>Chetty et al.&nbsp;(2016): the question and the data</h2>
+<ul>
+<li>Most common health measure: <strong>mortality</strong> — crude, but well measured for the whole population</li>
+<li>Data: the entire U.S. population, 1999–2013 — <strong>1.4 billion observations</strong> (Chetty et al., <em>JAMA</em> 2016)</li>
+<li>Deaths from Social Security records; income from <strong>tax returns</strong></li>
+<li>Individuals ranked by household income <strong>percentile</strong> within birth cohort, gender, and tax year — the same rank logic as the Opportunity Atlas</li>
+</ul>
+</section>
+<section id="what-they-estimate" class="slide level2">
+<h2>What they estimate</h2>
+<ul>
+<li>Goal: <strong>expected age at death</strong> conditional on income percentile at age 40, adjusting for race and ethnicity</li>
+<li><strong>Period life expectancy</strong>: the length of life for a hypothetical person who faces <em>this year’s</em> mortality rates at every age — a snapshot, not a forecast</li>
+<li>Three steps:
+<ol type="1">
+<li>Compute mortality rates by income rank and age</li>
+<li>Fit a survival model to extrapolate to old ages</li>
+<li>Adjust for racial differences in mortality</li>
+</ol></li>
+</ul>
+</section>
+<section id="survival-curves-rich-and-poor-men-diverge" class="slide level2">
+<h2>Survival curves: rich and poor men diverge</h2>
+<img data-src="img/lecture-18-slide-72.jpg" class="r-stretch" alt="Survival curve for 40-year-old men at the 5th income percentile only, plotted from age 40 to 120 with a dashed vertical line at age 76. The curve starts at 100 percent and falls to about 52 percent by age 76, where the observed data stop; the rest of the age axis is empty.">
+<div class="osu-src">
+<p>Source: Chetty et al.&nbsp;(2016).</p>
+</div>
+</section>
+<section id="survival-curves-rich-and-poor-men-diverge-1" class="slide level2">
+<h2>Survival curves: rich and poor men diverge</h2>
+<img data-src="img/lecture-18-slide-73.jpg" class="r-stretch" alt="The same survival chart, now adding a second red curve for men at the 95th income percentile. The p95 curve stays far above the p5 curve at every age and is still above 80 percent at the dashed age-76 line, where the p5 curve has fallen to about 52 percent; both series stop at age 76.">
+<div class="osu-src">
+<p>Source: Chetty et al.&nbsp;(2016).</p>
+</div>
+</section>
+<section id="survival-curves-rich-and-poor-men-diverge-2" class="slide level2">
+<h2>Survival curves: rich and poor men diverge</h2>
+<img data-src="img/lecture-19-1-slide-05.jpg" class="r-stretch" alt="The same two survival curves, now labeled at the dashed age-76 line: p95 Survival Rate 83 percent and p5 Survival Rate 52 percent — a 31 percentage point gap in the share of 40-year-old men still alive at 76.">
+<div class="osu-src">
+<p>Source: Chetty et al.&nbsp;(2016).</p>
+</div>
+</section>
+<section id="reading-the-survival-curves" class="slide level2">
+<h2>Reading the survival curves</h2>
+<ul>
+<li>Track the share of 40-year-old men still alive at each age</li>
+<li>By age <strong>76</strong>: only <strong>52%</strong> of men at the 5th percentile are still alive, vs.&nbsp;<strong>83%</strong> at the 95th percentile</li>
+<li>Problem: the data stop at age 76 — but life expectancy needs the <em>whole</em> curve</li>
+</ul>
+</section>
+<section id="method-spotlight-hazard-models" class="slide level2">
+<h2>Method spotlight: hazard models</h2>
+<ul>
+<li><strong>Hazard rate</strong> m(a): the probability of dying at age <em>a</em>, <em>given</em> that you survived to age <em>a</em></li>
+<li>A <strong>survival curve</strong> strings hazards together: the share still alive at each age</li>
+<li>A <strong>hazard model</strong> puts structure on how the hazard moves with age (or income, or treatment) — letting us predict beyond where the data end</li>
+<li>Survival analysis is everywhere: patient survival, machine failure, loan default, unemployment spells</li>
+</ul>
+</section>
+<section id="gompertz-1825-mortality-is-exponential-in-age" class="slide level2">
+<h2>Gompertz (1825): mortality is exponential in age</h2>
+<ul>
+<li>Mortality rates grow <strong>exponentially</strong> with age — so <em>log</em> mortality is almost a perfectly <strong>straight line</strong></li>
+<li>Fits U.S. data remarkably well from 40 to 90 (small deviations after 90)</li>
+<li>Fit the line through observed ages, then <strong>extrapolate</strong> past 76</li>
+</ul>
+
+<img data-src="img/gompertz-equation.jpg" class="quarto-figure quarto-figure-center r-stretch" style="width:45.0%" alt="Two equations: m of a equals k times e to the beta a, which implies log m of a equals kappa plus beta times a — the log mortality rate is linear in age."></section>
+<section id="lines-for-rich-and-poor" class="slide level2">
+<h2>Lines for rich and poor</h2>
+<img data-src="img/lecture-19-1-slide-08.jpg" class="r-stretch" alt="Log mortality rates by age for men at the 5th and 95th income percentiles with fitted Gompertz lines. Both series are nearly perfectly linear from age 40 to 76; the p95 line sits well below the p5 line but rises more steeply, so the two lines converge as the fitted lines extend toward age 90.">
+<div class="osu-src">
+<p>Source: Chetty et al.&nbsp;(2016).</p>
+</div>
+</section>
+<section id="reading-the-gompertz-lines" class="slide level2">
+<h2>Reading the Gompertz lines</h2>
+<ul>
+<li>Both percentiles: log mortality is close to linear in age</li>
+<li>The p95 line starts <strong>lower but rises more steeply</strong> — rich and poor mortality rates converge at very old ages</li>
+<li>Extrapolate each line to age 90; beyond 90, use national NCHS/SSA mortality estimates (assumed constant across income groups)</li>
+</ul>
+</section>
+<section id="completing-the-curves-now-we-can-compute-life-expectancy" class="slide level2">
+<h2>Completing the curves — now we can compute life expectancy</h2>
+<img data-src="img/lecture-19-1-slide-10.jpg" class="r-stretch" alt="Survival curves for men at the 5th and 95th percentiles with observed data points to age 76 and solid Gompertz-fitted curves continuing to age 90, labeled Gompertz Extrapolation between dashed vertical lines at age 76 and age 90. At 90 the p5 curve is near 19 percent and the p95 curve near 47 percent; neither curve extends past 90.">
+<div class="osu-src">
+<p>Source: Chetty et al.&nbsp;(2016).</p>
+</div>
+</section>
+<section id="completing-the-curves-now-we-can-compute-life-expectancy-1" class="slide level2">
+<h2>Completing the curves — now we can compute life expectancy</h2>
+<img data-src="img/lecture-19-1-slide-11.jpg" class="r-stretch" alt="Survival curves for men at the 5th and 95th percentiles extended to age 120: observed data to age 76, solid Gompertz extrapolation from 76 to 90, then dashed NCHS and SSA estimates beyond 90 that are assumed constant across income groups, with both curves reaching zero around age 105.">
+<div class="osu-src">
+<p>Source: Chetty et al.&nbsp;(2016).</p>
+</div>
+</section>
+<section id="tophat-the-medicare-test" class="slide level2">
+<h2>TopHat: The Medicare test</h2>
+<blockquote>
+<p>If lack of health <strong>insurance</strong> at the point of care were driving the income gap in mortality, what should happen to the p5 and p95 log-mortality lines at age 65, when nearly everyone gets Medicare?</p>
+</blockquote>
+<ul>
+<li><strong>A:</strong> The gap should <em>narrow</em> after 65</li>
+<li><strong>B:</strong> The gap should <em>widen</em> after 65</li>
+<li><strong>C:</strong> Nothing — the lines should stay straight</li>
+</ul>
+</section>
+<section id="what-we-actually-see-at-65" class="slide level2">
+<h2>What we actually see at 65</h2>
+<img data-src="img/lecture-19-1-slide-09.jpg" class="r-stretch" alt="The same log mortality chart for men at the 5th and 95th percentiles with a dashed vertical line at age 65, the Medicare eligibility threshold. Both the p5 and p95 lines pass straight through age 65 with no break or narrowing of the gap.">
+<div class="osu-src">
+<p>Source: Chetty et al.&nbsp;(2016).</p>
+</div>
+</section>
+<section id="no-break-at-65-what-it-means" class="slide level2">
+<h2>No break at 65 — what it means</h2>
+<ul>
+<li><strong>No differential break</strong> at the Medicare eligibility threshold — both lines sail straight through age 65</li>
+<li>Suggests point-of-care insurance coverage is <em>not</em> what separates rich and poor mortality</li>
+<li>Caution: coverage could still matter through effects that build up from much earlier ages</li>
+</ul>
+</section>
+<section id="tophat-guess-the-gap" class="slide level2">
+<h2>TopHat: Guess the gap</h2>
+<blockquote>
+<p>Expected age at death for 40-year-old American men: how many years separate the <strong>top 1%</strong> from the <strong>bottom 1%</strong> of household income?</p>
+</blockquote>
+<ul>
+<li><strong>A:</strong> about 3 years</li>
+<li><strong>B:</strong> about 8 years</li>
+<li><strong>C:</strong> about 15 years</li>
+<li><strong>D:</strong> about 25 years</li>
+</ul>
+</section>
+<section id="the-incomelongevity-gradient" class="slide level2">
+<h2>The income–longevity gradient</h2>
+<img data-src="img/lecture-18-slide-23.jpg" class="r-stretch" alt="Scatterplot of expected age at death for 40-year-old men against household income percentile, rising smoothly and almost monotonically from 72.7 years at the bottom 1 percent to 87.3 years at the top 1 percent, with dollar values marked along the percentile axis up to 2 million dollars.">
+<div class="osu-src">
+<p>Source: Chetty et al.&nbsp;(2016).</p>
+</div>
+</section>
+<section id="a-14.6-year-gap" class="slide level2">
+<h2>A 14.6-year gap</h2>
+<ul>
+<li>Men, bottom 1%: <strong>72.7 years</strong>. Men, top 1%: <strong>87.3 years</strong> — a <strong>14.6-year</strong> gap</li>
+<li>Women: 78.8 vs.&nbsp;88.9 — about a <strong>10-year</strong> gap</li>
+<li>The x-axis in dollars: p20 ≈ $25k, p60 ≈ $74k, p80 ≈ $115k, p100 ≈ $2.0M</li>
+<li>The gradient is smooth — there is no income level where it stops</li>
+</ul>
+</section>
+<section id="rich-americans-vs.-the-world" class="slide level2">
+<h2>Rich Americans vs.&nbsp;the world</h2>
+<ul>
+<li>The <strong>top 1%</strong> of American men have a higher life expectancy than the <em>average</em> man in <strong>any country on Earth</strong></li>
+<li>The <strong>bottom 1%</strong> are close to the average in <strong>Sudan or Pakistan</strong></li>
+<li>Both groups live in the same country, under the same medical technology</li>
+<li>That is tremendous health inequality hiding inside one national average</li>
+</ul>
+</section>
+<section id="the-gap-is-growing" class="slide level2">
+<h2>The gap is growing</h2>
+<ul>
+<li class="fragment">2001–2014: life expectancy rose for <em>all</em> income groups — but not equally</li>
+<li class="fragment">High-income Americans gained roughly <strong>3 years</strong></li>
+<li class="fragment">Low-income Americans gained roughly <strong>1 year</strong> — and the bottom 5% gained essentially <strong>nothing</strong></li>
+<li class="fragment">Not a technology story: the same frontier was available to everyone. The <em>gains</em> were unequally distributed</li>
+</ul>
+</section></section>
+<section>
+<section id="geography-where-the-poor-live-long" class="title-slide slide level1 osu-section center">
+<h1>Geography: where the poor live long</h1>
+
+</section>
+<section id="for-the-poor-place-matters" class="slide level2">
+<h2>For the poor, place matters</h2>
+<ul>
+<li>If you’re <strong>rich</strong>, life expectancy is high — and similar — almost everywhere in America</li>
+<li>If you’re <strong>poor</strong>, it depends enormously on where you live</li>
+<li>Low-income men in <strong>New York City</strong> live about <strong>6 years</strong> longer than low-income men in <strong>Detroit</strong></li>
+<li>Benchmark: the CDC estimates eliminating <strong>cancer</strong> entirely would raise average life expectancy by <strong>3.2 years</strong> — the place gap is nearly double that</li>
+</ul>
+</section>
+<section id="best-and-worst-big-cities-for-low-income-longevity" class="slide level2 smaller">
+<h2>Best and worst big cities for low-income longevity</h2>
+<table class="caption-top">
+<thead>
+<tr class="header">
+<th>Top CZs</th>
+<th>E[age at death]</th>
+<th>Bottom CZs</th>
+<th>E[age at death]</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>New York, NY</td>
+<td>81.8</td>
+<td>Gary, IN</td>
+<td>77.4</td>
+</tr>
+<tr class="even">
+<td>Santa Barbara, CA</td>
+<td>81.7</td>
+<td>Las Vegas, NV</td>
+<td>77.6</td>
+</tr>
+<tr class="odd">
+<td>San Jose, CA</td>
+<td>81.6</td>
+<td>Oklahoma City, OK</td>
+<td>77.6</td>
+</tr>
+<tr class="even">
+<td>Miami, FL</td>
+<td>81.2</td>
+<td>Indianapolis, IN</td>
+<td>77.6</td>
+</tr>
+<tr class="odd">
+<td>Los Angeles, CA</td>
+<td>81.1</td>
+<td>Tulsa, OK</td>
+<td>77.6</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>Bottom quartile of income, 100 largest commuting zones</li>
+<li>Close to home: <strong>Toledo (77.9)</strong> and <strong>Cincinnati (77.9)</strong> are both in the bottom ten</li>
+</ul>
+</section>
+<section id="tophat-what-predicts-low-income-longevity" class="slide level2">
+<h2>TopHat: What predicts low-income longevity?</h2>
+<blockquote>
+<p>Across areas, which factor correlates most strongly with life expectancy for low-income individuals?</p>
+</blockquote>
+<ul>
+<li><strong>A:</strong> share without health insurance</li>
+<li><strong>B:</strong> smoking rate</li>
+<li><strong>C:</strong> unemployment rate</li>
+<li><strong>D:</strong> Medicare spending per enrollee</li>
+</ul>
+</section>
+<section id="health-behaviors-correlate-strongly" class="slide level2">
+<h2>Health behaviors correlate strongly</h2>
+<img data-src="img/correlates-health-behaviors.jpg" class="r-stretch" alt="Dot plot of correlation coefficients with confidence intervals: current smoking minus 0.69, obesity minus 0.47, exercise rate plus 0.32 — all strongly related to low-income life expectancy.">
+<div class="osu-src">
+<p>Source: Chetty et al.&nbsp;(2016).</p>
+</div>
+</section>
+<section id="smoking-obesity-exercise" class="slide level2">
+<h2>Smoking, obesity, exercise</h2>
+<ul>
+<li>Smoking: <strong>−0.69</strong> — an extremely strong area-level correlation</li>
+<li>Obesity: −0.47; exercise: +0.32</li>
+</ul>
+</section>
+<section id="the-smoking-map-is-the-life-expectancy-map" class="slide level2">
+<h2>The smoking map <em>is</em> the life expectancy map</h2>
+<img data-src="img/smoking-map-bottom-quartile.jpg" class="r-stretch" alt="U.S. map of smoking rates among low-income individuals ranging from about 20 to over 35 percent. The darkest high-smoking areas concentrate in the industrial Midwest and Appalachia — Ohio, Kentucky, Indiana, Michigan — while coastal cities and the Southeast are lighter.">
+<div class="osu-src">
+<p>Source: Chetty et al.&nbsp;(2016).</p>
+</div>
+</section>
+<section id="our-region-and-a-caution-about-scale" class="slide level2">
+<h2>Our region, and a caution about scale</h2>
+<ul>
+<li>Highest low-income smoking: the industrial Midwest and Appalachia — not the Southeast</li>
+<li>But note the scale: 20% to 35%. Smoking alone is not big enough to explain multi-year life expectancy gaps</li>
+</ul>
+</section>
+<section id="health-care-access-barely-correlates" class="slide level2">
+<h2>Health care <em>access</em> barely correlates</h2>
+<img data-src="img/correlates-behaviors-vs-access.jpg" class="r-stretch" alt="Dot plot comparing correlations: health behaviors are large (smoking minus 0.69, obesity minus 0.47, exercise 0.32) while health care access measures are near zero — percent uninsured 0.10, Medicare dollars per enrollee minus 0.09, preventive care index 0.05; only the 30-day hospital mortality index reaches minus 0.31.">
+<div class="osu-src">
+<p>Source: Chetty et al.&nbsp;(2016).</p>
+</div>
+</section>
+<section id="near-zero-correlations-with-a-caveat" class="slide level2">
+<h2>Near-zero correlations — with a caveat</h2>
+<ul>
+<li>Share uninsured: <strong>0.10</strong>. Medicare $ per enrollee: −0.09. Preventive care: 0.05</li>
+<li>This does <strong>not</strong> prove access has no causal effect — ERs treat the uninsured, and coverage may matter cumulatively</li>
+<li>It says area <em>differences</em> aren’t explained by access measures</li>
+</ul>
+</section>
+<section id="what-high-longevity-areas-look-like" class="slide level2">
+<h2>What high-longevity areas look like</h2>
+<img data-src="img/correlates-other-factors.jpg" class="r-stretch" alt="Dot plot of correlations: percent immigrants 0.72, median house value 0.66, local government expenditures 0.57, population density 0.48, percent college graduates 0.42 — low-income people live longest in affluent, educated, dense cities.">
+<div class="osu-src">
+<p>Source: Chetty et al.&nbsp;(2016).</p>
+</div>
+</section>
+<section id="affluent-educated-dense-cities" class="slide level2">
+<h2>Affluent, educated, dense cities</h2>
+<ul>
+<li>Low-income Americans live longest in <strong>affluent, educated, dense cities</strong> with many immigrants and high house values</li>
+<li>Striking: these correlations ignore cost of living — which makes the pattern <em>more</em> surprising, not less</li>
+</ul>
+</section>
+<section id="behaviors-not-access-with-a-caution" class="slide level2 smaller">
+<h2>Behaviors, not access — with a caution</h2>
+<ul>
+<li class="fragment">Area variation points strongly to <strong>health behaviors</strong>, not health-care access</li>
+<li class="fragment">But these are <strong>correlations</strong> — remember the corn and the jet fuel</li>
+<li class="fragment">Movers designs (Finkelstein et al.) do find causal place effects on mortality, but they are modest</li>
+<li class="fragment">And behaviors are themselves <em>produced</em>: habits formed young persist for decades (Atkin), and low income constrains choices</li>
+<li class="fragment">So: can a policy that changes the <strong>care environment</strong> change health? We need a (natural) experiment</li>
+</ul>
+</section></section>
+<section>
+<section id="the-gift-of-a-lifetime" class="title-slide slide level1 osu-section center">
+<h1>The Gift of a Lifetime</h1>
+
+</section>
+<section id="when-did-hospitals-start-saving-lives" class="slide level2">
+<h2>When did hospitals start saving lives?</h2>
+<ul>
+<li>Correlations today can’t tell us what <em>access to modern medicine</em> causes</li>
+<li>Better idea: find a moment when some places suddenly got modern hospitals and others didn’t</li>
+<li>That moment exists: the <strong>1920s–1940s</strong>, exactly when hospitals were transforming from era-2 warehouses into era-3 centers of care</li>
+<li>Today’s reading: Hollingsworth, Karbownik, Thomasson, and Wray (2024), “The Gift of a Lifetime,” <em>American Economic Review</em></li>
+</ul>
+</section>
+<section id="the-duke-endowment" class="slide level2">
+<h2>The Duke Endowment</h2>
+<ul>
+<li><strong>1924</strong>: James B. Duke commits roughly <strong>$40 million</strong> of his tobacco and hydropower fortune to a new philanthropy for the Carolinas</li>
+<li>A core mission: <strong>hospitals</strong> — funds to build, expand, and modernize nonprofit community hospitals</li>
+<li>Duke money pushed hospitals toward <strong>modern medicine</strong>: trained physicians, laboratories, better equipment and facilities</li>
+<li>Some counties received Duke support; otherwise-similar counties did not</li>
+</ul>
+</section>
+<section id="a-natural-experiment-and-project-3s-method" class="slide level2">
+<h2>A natural experiment — and Project 3’s method</h2>
+<ul>
+<li>Compare <strong>infant mortality</strong> in counties with Duke-supported hospitals vs.&nbsp;counties without, <strong>before vs.&nbsp;after</strong> the money arrives</li>
+<li>The change in treated counties minus the change in untreated counties: <strong>difference-in-differences</strong></li>
+<li>Differencing removes both fixed county differences and statewide trends</li>
+<li>We’ll build this method formally later in the course — Project 3 is your first hands-on pass</li>
+</ul>
+</section>
+<section id="what-the-paper-finds" class="slide level2">
+<h2>What the paper finds</h2>
+<!-- TODO figure: Gift of a Lifetime event-study figure showing infant mortality declines in Duke-supported counties relative to controls (not in extracted source decks; pull from Hollingsworth et al. 2024 AER / Project 3 materials) -->
+<ul>
+<li>Infant mortality <strong>fell about 10%</strong> in supported counties, with larger declines for <strong>Black infants</strong></li>
+<li>Effects <em>grew</em> once <strong>sulfa drugs</strong> — the first effective antibacterials — arrived in the late 1930s: modern hospitals and new technology were <strong>complements</strong></li>
+<li>Children born in supported counties went on to live <strong>longer lives</strong>, decades later</li>
+<li>Money spent when medicine works is extremely cost-effective <!-- TODO: insert exact cost-per-life-year figure from the paper --></li>
+</ul>
+</section>
+<section id="project-3-the-gift-of-a-lifetime" class="slide level2">
+<h2>Project 3: The Gift of a Lifetime</h2>
+<ul>
+<li><strong>Project 3 — The Gift of a Lifetime (difference-in-differences)</strong> — due Tuesday, November 17, 2026</li>
+<li>You will work with county-level infant mortality data and estimate the effect of hospital modernization yourself</li>
+<li>The reading (r08) is the paper behind the project — read it with the data in mind</li>
+<li>Notice the arc: describe the gradient → correlate the geography → then find a <strong>causal</strong> research design</li>
+</ul>
+</section>
+<section id="recap" class="slide level2 smaller">
+<h2>Recap</h2>
+<ul>
+<li>Two centuries of mortality decline: nutrition, then public health, then — only recently — medical care</li>
+<li>Chetty et al.&nbsp;(2016): <strong>hazard models</strong> (Gompertz extrapolation) turn 1.4 billion records into life expectancy by income percentile</li>
+<li>The gradient: 72.7 vs.&nbsp;87.3 years for men — and the gap is growing</li>
+<li>Across areas, low-income longevity tracks <strong>health behaviors</strong>, not health-care access — but those are correlations</li>
+<li>The Duke Endowment natural experiment shows modern hospitals <em>caused</em> large infant mortality declines</li>
+</ul>
+</section></section>
+<section>
+<section id="session-s14" class="title-slide slide level1 osu-section center">
+<h1>Health insurance I: adverse selection and insurance markets</h1>
+
+</section>
+<section id="todays-question-1" class="slide level2">
+<h2>Today’s question</h2>
+<blockquote>
+<p>Why can’t we buy health insurance the way we buy shoes or groceries?</p>
+</blockquote>
+<ul>
+<li>For most goods, competition among sellers works pretty well</li>
+<li>Health insurance markets can <strong>unravel completely</strong> — even when everyone acts rationally</li>
+<li>Today’s method: <strong>adverse selection</strong> — what happens when one side of a market knows more than the other</li>
+</ul>
+</section>
+<section id="where-were-headed-1" class="slide level2">
+<h2>Where we’re headed</h2>
+<ul>
+<li>A gamble that reveals how you feel about <strong>risk</strong></li>
+<li>What insurance actually is: premiums, pooling, and why it’s worth more than it costs</li>
+<li><strong>Method spotlight:</strong> adverse selection and the death spiral</li>
+<li>Moral hazard, and why your plan makes you share costs</li>
+<li>Decoding a real insurance plan — including OSU’s own</li>
+</ul>
+</section></section>
+<section>
+<section id="risk-a-game-of-chance" class="title-slide slide level1 osu-section center">
+<h1>Risk: a game of chance</h1>
+
+</section>
+<section id="tophat-the-bonus-point-gamble" class="slide level2">
+<h2>TopHat: The bonus-point gamble</h2>
+<blockquote>
+<p>Which would you rather have?</p>
+</blockquote>
+<ul>
+<li><strong>A:</strong> Everyone gets <strong>1 percentage point</strong> of bonus on the next assignment, guaranteed</li>
+<li><strong>B:</strong> I draw one card from a fair deck. Ace → everyone gets <strong>5 points</strong>. Anything else → nothing.</li>
+<li>Lock in your vote — then we draw live at <a href="https://www.random.org/playing-cards/">random.org/playing-cards</a></li>
+</ul>
+</section>
+<section id="today-is-your-lucky-day" class="slide level2">
+<h2>Today is your lucky day</h2>
+<p>You have just won a <strong>$1 million</strong> lottery prize. Choose a payout:</p>
+<ul>
+<li><strong>Option A:</strong> Receive $1 million today</li>
+<li><strong>Option B:</strong> Trade it for a second lottery:
+<ul>
+<li>10% chance of <strong>$5 million</strong></li>
+<li>89% chance of <strong>$1 million</strong></li>
+<li>1% chance of <strong>nothing</strong></li>
+</ul></li>
+</ul>
+</section>
+<section id="expected-value" class="slide level2">
+<h2>Expected value</h2>
+<ul>
+<li>The <strong>expected value</strong> of a gamble is its average payout: each possible payoff multiplied by its probability, summed up</li>
+<li>A <strong>risk-neutral</strong> person uses expected value to compare gambles and to decide what a gamble is worth paying for</li>
+<li>Quick check: a fair die pays you the number rolled in dollars. What’s the most a risk-neutral person pays to play?</li>
+</ul>
+</section>
+<section id="option-b-is-clearly-better-isnt-it" class="slide level2">
+<h2>Option B is clearly better… isn’t it?</h2>
+<table class="caption-top">
+<thead>
+<tr class="header">
+<th>Option</th>
+<th>Calculation</th>
+<th>Expected value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>A</td>
+<td>1.00 × $1M</td>
+<td><strong>$1.00 million</strong></td>
+</tr>
+<tr class="even">
+<td>B</td>
+<td>0.10 × $5M + 0.89 × $1M + 0.01 × $0</td>
+<td><strong>$1.39 million</strong></td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>B is worth <strong>$390,000 more</strong> on average</li>
+<li>Yet most people take A — that 1% chance of walking away with nothing looms very large</li>
+</ul>
+</section>
+<section id="you-can-have-preferences-over-risk" class="slide level2">
+<h2>You can have preferences over risk</h2>
+<ul>
+<li><strong>Risk neutral:</strong> only the expected value matters</li>
+<li><strong>Risk averse:</strong> between two gambles with the same expected value, you prefer the one with <em>less</em> variance</li>
+<li><strong>Risk loving:</strong> you prefer the one with <em>more</em> variance</li>
+<li>Strong enough feelings about risk can make you give up expected value — like taking the certain $1 million</li>
+<li>The same person can be risk loving over a $2 Powerball ticket and risk averse over their health — my poker-playing friends all carry very good health insurance</li>
+</ul>
+</section>
+<section id="risk-aversion-in-plain-terms" class="slide level2">
+<h2>Risk aversion in plain terms</h2>
+<ul>
+<li>A dollar matters more when you have few of them — losing your last $10,000 hurts far more than gaining an extra $10,000 helps</li>
+<li>So a <strong>certain</strong> outcome can <em>feel</em> better than a gamble with a higher average payout</li>
+<li>Flip it around: people will pay a small <strong>certain</strong> amount to escape a small chance of a <strong>huge</strong> loss</li>
+<li>That is exactly what insurance sells</li>
+<li>Health is a bad lottery you are already holding a ticket to</li>
+</ul>
+</section></section>
+<section>
+<section id="what-insurance-is" class="title-slide slide level1 osu-section center">
+<h1>What insurance is</h1>
+
+</section>
+<section id="a-healthy-40-year-olds-year-as-a-lottery" class="slide level2 smaller">
+<h2>A healthy 40-year-old’s year, as a lottery</h2>
+<table class="caption-top">
+<thead>
+<tr class="header">
+<th>Illness</th>
+<th>Probability</th>
+<th>Treatment cost</th>
+<th>Expected cost</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Heart disease</td>
+<td>0.010</td>
+<td>$40,000</td>
+<td>$400</td>
+</tr>
+<tr class="even">
+<td>Diabetes</td>
+<td>0.020</td>
+<td>$20,000</td>
+<td>$400</td>
+</tr>
+<tr class="odd">
+<td>Cancer</td>
+<td>0.002</td>
+<td>$80,000</td>
+<td>$160</td>
+</tr>
+<tr class="even">
+<td>Stroke</td>
+<td>0.001</td>
+<td>$40,000</td>
+<td>$40</td>
+</tr>
+<tr class="odd">
+<td>Pneumonia</td>
+<td>0.005</td>
+<td>$16,000</td>
+<td>$80</td>
+</tr>
+<tr class="even">
+<td>… nothing serious</td>
+<td>0.300</td>
+<td>$400</td>
+<td>$120</td>
+</tr>
+<tr class="odd">
+<td><strong>Total, all conditions</strong></td>
+<td></td>
+<td></td>
+<td><strong>$6,000</strong></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="from-expected-cost-to-a-premium" class="slide level2">
+<h2>From expected cost to a premium</h2>
+<ul>
+<li><strong>Pure premium</strong> (<em>actuarially fair</em> premium): expected medical spending for people at her risk level = <strong>$6,000</strong></li>
+<li><strong>Loading charge:</strong> what the insurer adds on top — administration, building the provider network, processing claims, marketing, profit</li>
+<li>Here: 15% loading = $900, so her <strong>actual premium = $6,900</strong></li>
+<li>Would a rational person pay $6,900 to cover $6,000 of expected costs?</li>
+</ul>
+</section>
+<section id="why-pay-more-than-the-actuarially-fair-premium" class="slide level2">
+<h2>Why pay more than the actuarially fair premium?</h2>
+<ul>
+<li><strong>Benefit 1 — reducing risk.</strong> Risk-averse people happily pay the loading charge to avoid huge year-to-year swings in what they can spend on everything else</li>
+<li><strong>Benefit 2 — enabling access.</strong> Insurance lets you <em>get</em> the $80,000 cancer treatment you could never pay for out of pocket in a very sick year</li>
+<li>Both benefits are largest exactly when costs are rare but catastrophic</li>
+</ul>
+</section>
+<section id="spending-is-wildly-concentrated" class="slide level2">
+<h2>Spending is wildly concentrated</h2>
+<img data-src="img/health-spending-concentration-kff.jpg" class="r-stretch" alt="Bar chart of shares of total health spending by spender group in 2016: the top 1 percent of health spenders account for over 20 percent of all spending, the top 5 percent for about half, the top 20 percent for about 82 percent, and the entire lower half of the population for only about 3 percent.">
+<div class="osu-src">
+<p>Source: Peterson-KFF Health System Tracker, 2016.</p>
+</div>
+</section>
+<section id="what-that-concentration-means" class="slide level2">
+<h2>What that concentration means</h2>
+<ul>
+<li>The top 20% of users account for roughly <strong>82%</strong> of medical spending; the entire bottom half accounts for only about 3%</li>
+<li>Insurance pools that catastrophic risk across everyone</li>
+</ul>
+</section>
+<section id="how-the-money-flows" class="slide level2">
+<h2>How the money flows</h2>
+<ul>
+<li><strong>Enrollee</strong> pays a premium whether or not they use care — often split with an <strong>employer</strong>, which typically pays about 80% of it (e.g., you pay $1,500, your employer pays $6,000)</li>
+<li><strong>Insurer</strong> pays physicians, hospitals, and pharmacies when an enrollee receives care</li>
+<li><strong>Patient</strong> also pays <em>cost sharing</em> at the point of care — deductibles, copays</li>
+<li>Medicare and Medicaid work similarly, with government as the payer</li>
+</ul>
+</section></section>
+<section>
+<section id="pricing-the-pool" class="title-slide slide level1 osu-section center">
+<h1>Pricing the pool</h1>
+
+</section>
+<section id="spending-is-wildly-concentrated-1" class="slide level2" data-visibility="uncounted">
+<h2>Spending is wildly concentrated</h2>
+<img data-src="img/health-spending-concentration-kff.jpg" class="r-stretch" alt="The same bar chart of shares of total health spending by spender group in 2016, now with an overlaid note singling out the tall Top 50 percent bar — the high-spending group we are about to price.">
+<p><span class="osu-overlay absolute" style="top: 22%; right: 3%; ">Let’s consider someone from this group</span></p>
+<div class="osu-src">
+<p>Source: Peterson-KFF Health System Tracker, 2016.</p>
+</div>
+</section>
+<section id="now-price-a-60-year-old-with-diabetes" class="slide level2 smaller">
+<h2>Now price a 60-year-old with diabetes</h2>
+<table class="caption-top">
+<thead>
+<tr class="header">
+<th>Illness</th>
+<th>Probability</th>
+<th>Treatment cost</th>
+<th>Expected cost</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Heart disease</td>
+<td>0.05</td>
+<td>$40,000</td>
+<td>$2,000</td>
+</tr>
+<tr class="even">
+<td>Diabetes</td>
+<td>1.00</td>
+<td>$20,000</td>
+<td>$20,000</td>
+</tr>
+<tr class="odd">
+<td>Cancer</td>
+<td>0.01</td>
+<td>$80,000</td>
+<td>$800</td>
+</tr>
+<tr class="even">
+<td>Stroke</td>
+<td>0.01</td>
+<td>$40,000</td>
+<td>$400</td>
+</tr>
+<tr class="odd">
+<td>Pneumonia</td>
+<td>0.02</td>
+<td>$16,000</td>
+<td>$320</td>
+</tr>
+<tr class="even">
+<td><strong>Pure premium</strong></td>
+<td></td>
+<td></td>
+<td><strong>$30,000</strong></td>
+</tr>
+<tr class="odd">
+<td>15% loading</td>
+<td></td>
+<td></td>
+<td>$4,500</td>
+</tr>
+<tr class="even">
+<td><strong>Actual premium</strong></td>
+<td></td>
+<td></td>
+<td><strong>$34,500</strong></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="now-price-a-60-year-old-with-diabetes-1" class="slide level2 smaller">
+<h2>Now price a 60-year-old with diabetes</h2>
+<table class="caption-top">
+<thead>
+<tr class="header">
+<th>Illness</th>
+<th>Probability</th>
+<th>Treatment cost</th>
+<th>Expected cost</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Heart disease</td>
+<td>0.05</td>
+<td>$40,000</td>
+<td>$2,000</td>
+</tr>
+<tr class="even">
+<td><strong>→ Diabetes</strong></td>
+<td><strong>1.00</strong></td>
+<td><strong>$20,000</strong></td>
+<td><strong>$20,000</strong></td>
+</tr>
+<tr class="odd">
+<td>Cancer</td>
+<td>0.01</td>
+<td>$80,000</td>
+<td>$800</td>
+</tr>
+<tr class="even">
+<td>Stroke</td>
+<td>0.01</td>
+<td>$40,000</td>
+<td>$400</td>
+</tr>
+<tr class="odd">
+<td>Pneumonia</td>
+<td>0.02</td>
+<td>$16,000</td>
+<td>$320</td>
+</tr>
+<tr class="even">
+<td><strong>Pure premium</strong></td>
+<td></td>
+<td></td>
+<td><strong>$30,000</strong></td>
+</tr>
+<tr class="odd">
+<td>15% loading</td>
+<td></td>
+<td></td>
+<td>$4,500</td>
+</tr>
+<tr class="even">
+<td><strong>Actual premium</strong></td>
+<td></td>
+<td></td>
+<td><strong>$34,500</strong></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="what-that-one-row-does" class="slide level2">
+<h2>What that one row does</h2>
+<ul>
+<li>Every other line is a <em>chance</em> of getting sick; the diabetes line is a <strong>certainty</strong> — probability 1.00</li>
+<li>$20,000 of his $30,000 pure premium is locked in before anything else happens</li>
+<li>Experience rating charges him for what the insurer already knows</li>
+</ul>
+</section>
+<section id="two-ways-to-set-premiums" class="slide level2">
+<h2>Two ways to set premiums</h2>
+<ul>
+<li><strong>Experience rating:</strong> premium based on <em>your</em> predicted costs — age, gender, conditions, history
+<ul>
+<li>Our two people: <strong>$6,900</strong> and <strong>$34,500</strong></li>
+</ul></li>
+<li><strong>Community rating:</strong> one premium for everyone, regardless of health
+<ul>
+<li>Both pay <strong>$20,700</strong></li>
+</ul></li>
+<li>Community rating is more equitable — healthy people subsidize sick people — but it plants a time bomb</li>
+</ul>
+</section>
+<section id="tophat-who-signs-up-at-20700" class="slide level2">
+<h2>TopHat: Who signs up at $20,700?</h2>
+<blockquote>
+<p>Community-rated premium: $20,700 for anyone who wants a plan. Who buys?</p>
+</blockquote>
+<ul>
+<li><strong>A:</strong> Both the healthy 40-year-old and the 60-year-old diabetic</li>
+<li><strong>B:</strong> Only the healthy 40-year-old</li>
+<li><strong>C:</strong> Only the 60-year-old diabetic</li>
+<li><strong>D:</strong> Neither</li>
+</ul>
+</section></section>
+<section>
+<section id="method-spotlight-adverse-selection" class="title-slide slide level1 osu-section center">
+<h1>Method spotlight: adverse selection</h1>
+
+</section>
+<section id="adverse-selection-defined" class="slide level2">
+<h2>Adverse selection, defined</h2>
+<ul>
+<li><strong>Information asymmetry:</strong> you know far more about your own health — family history, lifestyle, that lump you haven’t mentioned — than any insurer can</li>
+<li><strong>Adverse selection:</strong> the people most eager to buy coverage are precisely the most expensive to cover</li>
+<li>At $20,700 the insurer <em>makes</em> $14,700 on her and <em>loses</em> $9,300 on him — and only <strong>he</strong> wants to sign up</li>
+<li>The pool that enrolls is <strong>sicker than the population average</strong></li>
+</ul>
+</section>
+<section id="akerlofs-market-for-lemons" class="slide level2">
+<h2>Akerlof’s market for lemons</h2>
+<ul>
+<li>Used cars: sellers know which cars are <strong>lemons</strong>; buyers can’t tell (Akerlof 1970)</li>
+<li>Buyers will only offer the price of an <em>average</em> car</li>
+<li>Owners of good cars refuse that price and keep their cars — so the cars actually for sale get worse</li>
+<li>Prices fall further, more good cars exit… the market can collapse entirely</li>
+<li>Insurance is the same logic with the roles reversed: here the <strong>seller</strong> is the uninformed side</li>
+</ul>
+</section>
+<section id="the-death-spiral-step-by-step" class="slide level2">
+<h2>The death spiral, step by step</h2>
+<ol type="1">
+<li class="fragment">One community-rated premium, no requirement to buy</li>
+<li class="fragment">The healthiest look at $20,700 and walk away</li>
+<li class="fragment">The remaining pool is sicker, so average cost per enrollee rises</li>
+<li class="fragment">The insurer must raise the premium — and the <em>next</em>-healthiest group walks away</li>
+<li class="fragment">Repeat until only the sickest remain and coverage becomes unaffordable: the market unravels</li>
+</ol>
+</section>
+<section id="this-actually-happened" class="slide level2">
+<h2>This actually happened</h2>
+<ul>
+<li>Harvard restructured its employee health benefits in the mid-1990s — employees now paid the full extra cost of the generous plan</li>
+<li>Healthier employees switched out; the generous plan’s pool got sicker; premiums jumped; more people fled</li>
+<li>Within <strong>three years</strong> the generous plan was gone — a documented death spiral (Cutler and Reber 1998)</li>
+<li>Hendren’s estimates: the 2017 ACA-repeal bill would have effectively ended individual-market enrollment for families earning under $75,000</li>
+</ul>
+</section>
+<section id="how-insurers-used-to-fight-adverse-selection" class="slide level2">
+<h2>How insurers used to fight adverse selection</h2>
+<ul>
+<li><strong>Deny:</strong> refuse applicants with pre-existing conditions</li>
+<li><strong>Exclusions:</strong> insure you, but not the condition you actually have</li>
+<li><strong>Retroactive denial:</strong> cancel the policy after the bills arrive</li>
+<li>These protect the insurer by pushing the <em>sickest</em> people out of the market — the people who need insurance most</li>
+</ul>
+</section>
+<section id="the-acas-answer-a-trade" class="slide level2 smaller">
+<h2>The ACA’s answer: a trade</h2>
+<ul>
+<li>2014: everyone must buy insurance or pay a fine (<strong>individual mandate</strong>; low-income people were exempt); in exchange, insurers may no longer deny coverage for <strong>pre-existing conditions</strong></li>
+<li>Coverage reached about <strong>91%</strong> of Americans — risk spread over a much broader pool</li>
+<li>All plans must cover <strong>10 essential health benefits</strong> — ending “skimpy” plans that had siphoned off the young and healthy</li>
+<li>The mandate penalty ended in 2019 — adverse selection is reduced, not eliminated; the ~9% uninsured skew young and healthy</li>
+</ul>
+</section></section>
+<section>
+<section id="employer-pooling" class="title-slide slide level1 osu-section center">
+<h1>Employer pooling</h1>
+
+</section>
+<section id="where-working-age-americans-get-coverage" class="slide level2">
+<h2>Where working-age Americans get coverage</h2>
+<ul>
+<li>Most of the 271 million non-elderly Americans (2018) get insurance <strong>through an employer</strong></li>
+<li>The rest: public programs (Medicaid, Medicare, military), the individual market, or no coverage at all</li>
+<li>Why does the employer market avoid the death spiral?</li>
+</ul>
+</section>
+<section id="why-employer-pooling-works" class="slide level2">
+<h2>Why employer pooling works</h2>
+<ul>
+<li>The pool forms for a reason <strong>unrelated to health</strong>: people join a firm for the job, not because they feel sick</li>
+<li>Insurers <strong>experience-rate the firm</strong> (sicker workforce → higher price to the company)…</li>
+<li>…but <strong>community-rate within the firm</strong>: every employee pays the same, healthy or sick, young or old</li>
+<li>At large firms adverse selection is minor — though young workers quietly subsidize older, sicker coworkers</li>
+</ul>
+</section>
+<section id="employers-pay-most-of-the-premium" class="slide level2">
+<h2>Employers pay most of the premium</h2>
+<img data-src="img/bls-employer-premium-share-2025.jpg" class="r-stretch" alt="Bureau of Labor Statistics table showing the share of medical plan premiums paid by employer versus employee for single coverage in March 2025: across all civilian workers employers pay 81 percent and employees 19 percent; private industry splits 80 versus 20, and state and local government splits 87 versus 13.">
+<div class="osu-src">
+<p>Source: U.S. Bureau of Labor Statistics, Employee Benefits Survey, March 2025.</p>
+</div>
+</section>
+<section id="what-the-bls-numbers-say" class="slide level2">
+<h2>What the BLS numbers say</h2>
+<ul>
+<li>For single coverage, the average employer pays about <strong>81%</strong> of the premium; the employee covers the rest through payroll deductions</li>
+<li>Government employers — like OSU — pay an even larger share, about <strong>87%</strong></li>
+</ul>
+</section>
+<section id="community-rating-within-a-firm-osu" class="slide level2">
+<h2>Community rating within a firm: OSU</h2>
+<img data-src="img/osu-employee-premiums-2023.jpg" class="r-stretch" alt="Table of 2023 OSU employee monthly payroll deductions for medical coverage: employee-only coverage costs about 90 to 115 dollars per month before credits, rising to about 343 to 408 dollars for family coverage — the same price for every employee in a tier regardless of age or health.">
+<div class="osu-src">
+<p>Source: OSU Office of Human Resources, 2023.</p>
+</div>
+</section>
+<section id="one-price-whatever-your-health" class="slide level2">
+<h2>One price, whatever your health</h2>
+<ul>
+<li>A healthy 25-year-old and a 60-year-old with diabetes pay the <strong>same</strong> payroll deduction — and OSU pays a large share behind the scenes</li>
+</ul>
+</section></section>
+<section>
+<section id="moral-hazard" class="title-slide slide level1 osu-section center">
+<h1>Moral hazard</h1>
+
+</section>
+<section id="tophat-if-health-care-were-free" class="slide level2">
+<h2>TopHat: If health care were free…</h2>
+<blockquote>
+<p>Suppose every visit, test, and procedure had a $0 price at the point of care. How much care would you use?</p>
+</blockquote>
+<ul>
+<li><strong>A:</strong> More than I use now</li>
+<li><strong>B:</strong> About the same</li>
+<li><strong>C:</strong> Less than I use now</li>
+<li>Think about how much of <em>anything</em> you consume when the price is zero</li>
+</ul>
+</section>
+<section id="demand-for-care-slopes-down" class="slide level2">
+<h2>Demand for care slopes down</h2>
+<img data-src="img/medical-care-demand-curve.jpg" class="r-stretch" alt="Downward-sloping marginal benefit line for medical services: at a price of about 100 dollars a person chooses 2 services per period, while at a price of about 20 dollars the same person chooses 8 — lower prices at the point of care mean more services consumed.">
+<div class="osu-src">
+<p>Source: Santerre and Neun, Health Economics, Exhibit 5.2.</p>
+</div>
+</section>
+<section id="reading-the-demand-curve" class="slide level2">
+<h2>Reading the demand curve</h2>
+<ul>
+<li>At $100 a visit you go twice; at $20 you go eight times</li>
+<li>Insurance lowers the price you face <strong>at the point of care</strong> — so it changes how much care you use</li>
+</ul>
+</section>
+<section id="moral-hazard-defined" class="slide level2">
+<h2>Moral hazard, defined</h2>
+<ul>
+<li><strong>Moral hazard:</strong> insurance against a loss weakens your incentive to prevent the loss or keep its cost down</li>
+<li><strong>Ex ante</strong> (before the event): skip the flu shot, eat the cheeseburgers, go hang gliding</li>
+<li><strong>Ex post</strong> (after the event): choose knee-replacement surgery when physical therapy would have done</li>
+<li>Not fraud — just people responding rationally to prices</li>
+</ul>
+</section>
+<section id="how-price-sensitive-is-medical-care" class="slide level2">
+<h2>How price-sensitive is medical care?</h2>
+<ul>
+<li>The RAND Health Insurance Experiment randomized families into plans with different cost sharing</li>
+<li>Overall: a 10% price decrease raises use of medical services by about <strong>2%</strong></li>
+<li>But it varies: hospital care ~1.5%, primary care ~2%, mental health and nursing homes ~10%, choice of individual doctor ~30%</li>
+<li>Higher-income groups are the least price-sensitive</li>
+</ul>
+</section>
+<section id="cost-sharing-the-fix-and-its-cost" class="slide level2">
+<h2>Cost sharing: the fix, and its cost</h2>
+<ul>
+<li>Deductibles, copays, and coinsurance make patients face <em>part</em> of the price → trims low-value utilization</li>
+<li>The catch: cost sharing <strong>re-introduces risk</strong> — the very thing insurance exists to remove</li>
+<li>Every real plan is a compromise between full protection and moral hazard</li>
+</ul>
+</section>
+<section id="three-limits-of-a-pure-private-market" class="slide level2 smaller">
+<h2>Three limits of a pure private market</h2>
+<ol type="1">
+<li><strong>Adverse selection:</strong> community-rated pools unravel into death spirals when the healthy can walk away</li>
+<li><strong>Experience rating prices out the sick:</strong> insurers deny, exclude, and rescind exactly the people who need coverage most</li>
+<li><strong>Moral hazard:</strong> generous coverage inflates spending, so full insurance is never offered</li>
+</ol>
+<ul>
+<li>Together these explain both complicated insurance contracts <em>and</em> why every rich country’s government is deep in this market</li>
+</ul>
+</section></section>
+<section>
+<section id="whats-in-a-plan" class="title-slide slide level1 osu-section center">
+<h1>What’s in a plan</h1>
+
+</section>
+<section id="we-are-collectively-terrible-at-this" class="slide level2">
+<h2>We are collectively terrible at this</h2>
+<img data-src="img/insurance-literacy-policygenius.jpg" class="r-stretch" alt="Paired bar chart showing the share of surveyed Americans who are confident they understand versus can correctly define four insurance terms: deductible 74 percent confident but 50 percent correct, coinsurance 47 versus 22, copay 83 versus 52, out-of-pocket maximum 67 versus 42.">
+<div class="osu-src">
+<p>Source: Policygenius health insurance literacy survey.</p>
+</div>
+</section>
+<section id="confidence-outruns-comprehension" class="slide level2">
+<h2>Confidence outruns comprehension</h2>
+<ul>
+<li><strong>96%</strong> of surveyed Americans could not correctly define all four: deductible, coinsurance, copay, out-of-pocket maximum</li>
+<li>In the next ten minutes, you join the 4%</li>
+</ul>
+</section>
+<section id="premium-and-network" class="slide level2">
+<h2>Premium and network</h2>
+<ul>
+<li><strong>Premium:</strong> the fixed amount you (and usually your employer) pay every month, care or no care — this is <em>not</em> cost sharing</li>
+<li><strong>Network:</strong> providers with whom your insurer has a <strong>negotiated rate</strong> (the <em>allowed amount</em>); go out of network and you pay more</li>
+<li>Some plans require a <strong>referral</strong> from your primary care provider before seeing anyone else</li>
+</ul>
+</section>
+<section id="cost-sharing-deductible-copay-coinsurance" class="slide level2">
+<h2>Cost sharing: deductible, copay, coinsurance</h2>
+<ul>
+<li><strong>Deductible:</strong> what you pay out of pocket each year <em>before</em> the insurer starts paying — cheaper plans have higher deductibles; preventive care is often exempt</li>
+<li><strong>Copay:</strong> a fixed dollar amount per service (e.g., $20 a visit), varying by service type</li>
+<li><strong>Coinsurance:</strong> the <em>percentage</em> of the bill you still pay after the deductible</li>
+<li>All three are <strong>cost sharing</strong> — tools aimed at moral hazard</li>
+</ul>
+</section>
+<section id="the-out-of-pocket-maximum" class="slide level2">
+<h2>The out-of-pocket maximum</h2>
+<img data-src="img/cost-sharing-illustration.jpg" class="r-stretch" alt="Stacked diagram of a year of medical spending: the patient pays 100 percent of bills until the 2,500 dollar deductible is met, then 25 percent coinsurance while the plan pays 75 percent, and once the patient's total out-of-pocket spending reaches the 5,000 dollar limit the plan pays 100 percent of everything above it.">
+<div class="osu-src">
+<p>A year of bills under a $2,500 deductible, 25% coinsurance, and a $5,000 out-of-pocket limit.</p>
+</div>
+</section>
+<section id="why-the-out-of-pocket-max-matters" class="slide level2">
+<h2>Why the out-of-pocket max matters</h2>
+<ul>
+<li>The <strong>most</strong> you can spend on covered care in a year — deductible, copays, and coinsurance count; <strong>premiums do not</strong></li>
+<li>Fine print: a few plans do not count copays toward the maximum — check yours</li>
+<li>This cap is what makes a plan <em>insurance</em>: it bounds your worst year</li>
+</ul>
+</section>
+<section id="tophat-which-of-these-is-not-cost-sharing" class="slide level2">
+<h2>TopHat: Which of these is NOT cost sharing?</h2>
+<ul>
+<li><strong>A:</strong> Deductible</li>
+<li><strong>B:</strong> Copay</li>
+<li><strong>C:</strong> Coinsurance</li>
+<li><strong>D:</strong> Premium</li>
+</ul>
+</section>
+<section id="reading-a-real-plan-menu-osu-2023" class="slide level2">
+<h2>Reading a real plan menu: OSU, 2023</h2>
+<img data-src="img/osu-medical-plan-comparison-2023.jpg" class="r-stretch" alt="OSU 2023 medical comparison table across Prime Care Advantage, Choice, and Connect plans: individual deductibles range from 150 to 1,900 dollars, out-of-pocket maximums from 1,500 to 7,500 dollars, coinsurance from plan-pays-85-percent to plan-pays-60-percent, with preventive care covered at 100 percent in network.">
+<div class="osu-src">
+<p>Source: OSU Office of Human Resources, 2023.</p>
+</div>
+</section>
+<section id="your-turn-decode-one-plan" class="slide level2">
+<h2>Your turn: decode one plan</h2>
+<ul>
+<li>Find the deductible, coinsurance, and out-of-pocket max for one plan</li>
+<li>Notice the pattern: lower premium ↔︎ higher deductible</li>
+</ul>
+</section>
+<section id="actuarial-value-plan-generosity-in-one-number" class="slide level2">
+<h2>Actuarial value: plan generosity in one number</h2>
+<ul>
+<li><strong>Actuarial value:</strong> the share of average covered costs a plan pays</li>
+<li>ACA metal tiers: <strong>bronze 60%</strong>, silver 70%, gold 80%, <strong>platinum 90%</strong></li>
+<li>Many different deductible/coinsurance combinations reach the same actuarial value</li>
+</ul>
+</section>
+<section id="many-designs-same-actuarial-value" class="slide level2">
+<h2>Many designs, same actuarial value</h2>
+<img data-src="img/aca-actuarial-value-plan-designs.jpg" class="r-stretch" alt="Table showing combinations of deductibles, coinsurance, and out-of-pocket maximums that produce given actuarial values: a 60 percent plan pairs with a 6,350 dollar deductible while a 94 percent plan pairs with deductibles near zero — many different designs can hit the same actuarial value.">
+<div class="osu-src">
+<p>Source: Kaiser Family Foundation, 2013.</p>
+</div>
+</section>
+<section id="beyond-the-plan-fsas-hras-and-hsas" class="slide level2 smaller">
+<h2>Beyond the plan: FSAs, HRAs, and HSAs</h2>
+<ul>
+<li><strong>Flexible Spending Account (FSA):</strong> you set aside <em>tax-free</em> dollars for out-of-pocket costs; you fund it, and unused funds do <strong>not</strong> roll over</li>
+<li><strong>Health Reimbursement Account (HRA):</strong> your <em>employer</em> funds and owns it; reimburses qualified medical expenses tax-free up to a fixed yearly amount, and funds <strong>can</strong> roll over</li>
+<li><strong>Health Savings Account (HSA):</strong> available only with a <strong>high-deductible health plan (HDHP)</strong>; contributions are pre-tax, funds roll over, and after retirement they can be spent on non-medical expenses too</li>
+<li>All of these are factored into a plan’s actuarial value</li>
+</ul>
+</section>
+<section id="recap-1" class="slide level2 smaller">
+<h2>Recap</h2>
+<ul>
+<li>Risk aversion makes insurance worth <strong>more</strong> than expected costs — people rationally pay the loading charge</li>
+<li>Pure premium + loading; experience rating vs.&nbsp;community rating</li>
+<li><strong>Adverse selection:</strong> information asymmetry → the sick select in, the healthy select out → death spiral (Akerlof 1970; Harvard, Cutler and Reber 1998)</li>
+<li><strong>Moral hazard</strong> is why plans make you share costs</li>
+<li>Plan anatomy: premium, network, deductible, copay, coinsurance, out-of-pocket max</li>
+</ul>
+</section></section>
+<section>
+<section id="session-s15" class="title-slide slide level1 osu-section center">
+<h1>Health insurance II: the Oregon experiment and Medicaid</h1>
+
+</section>
+<section id="todays-question-2" class="slide level2">
+<h2>Today’s question</h2>
+<blockquote>
+<p>Does giving people health insurance actually make them healthier?</p>
+</blockquote>
+<ul>
+<li>Last class: how insurance markets work (and fail)</li>
+<li>Today: what insurance <em>does</em> — using the closest thing health economics has to a perfect experiment</li>
+<li>Along the way, one result that surprised almost everyone</li>
+</ul>
+</section>
+<section id="where-were-headed-2" class="slide level2">
+<h2>Where we’re headed</h2>
+<ul>
+<li>Why comparing insured to uninsured people is a trap</li>
+<li>The <strong>Oregon Health Insurance Experiment</strong>: a Medicaid lottery</li>
+<li>Effects on care use — including the emergency-department surprise</li>
+<li>Effects on financial strain, depression, and clinical health</li>
+<li>The Medicaid debate, and a third experiment run by the IRS</li>
+</ul>
+</section></section>
+<section>
+<section id="from-rand-to-oregon" class="title-slide slide level1 osu-section center">
+<h1>From RAND to Oregon</h1>
+
+</section>
+<section id="the-question-rand-left-open" class="slide level2">
+<h2>The question RAND left open</h2>
+<ul>
+<li>RAND compared <em>more</em> vs.&nbsp;<em>less</em> generous plans — everyone in the study <strong>had insurance</strong></li>
+<li>The big policy question is different: what happens when we cover people who have <strong>no insurance at all</strong>?</li>
+<li>Does coverage mostly fuel wasteful spending, or does it improve health and financial security?</li>
+<li>This is <em>the</em> question behind Medicaid expansion debates</li>
+</ul>
+</section>
+<section id="why-not-just-compare-insured-to-uninsured" class="slide level2">
+<h2>Why not just compare insured to uninsured?</h2>
+<ul>
+<li>Uninsured adults differ from insured adults in many ways: income, age, jobs, health behaviors, existing illness</li>
+<li>Remember <strong>adverse selection</strong>: who buys insurance depends on how sick they expect to be</li>
+<li>Any raw comparison mixes the effect of insurance with the effects of everything else</li>
+<li>Same problem as neighborhoods and schools earlier in the course: <strong>selection</strong>, not causation</li>
+</ul>
+</section>
+<section id="tophat-uninsured-adults-are-hospitalized-less-than-medicaid-enrollees.-does-medicaid-cause-hospitalization" class="slide level2">
+<h2>TopHat: Uninsured adults are hospitalized less than Medicaid enrollees. Does Medicaid cause hospitalization?</h2>
+<ul>
+<li><strong>A:</strong> Yes — the data show it directly</li>
+<li><strong>B:</strong> No — Medicaid enrollees are poorer and sicker to begin with, so the comparison is confounded</li>
+<li><strong>C:</strong> We can’t say anything at all from any data</li>
+<li>Defend your answer with one word from earlier in the course</li>
+</ul>
+</section>
+<section id="the-ideal-experiment" class="slide level2">
+<h2>The ideal experiment</h2>
+<ul>
+<li>Randomly assign insurance to some people and not others, then compare outcomes</li>
+<li>Randomization breaks the link between coverage and everything else about a person</li>
+<li>Sounds impossible for health insurance — who would run it?</li>
+<li>Amazingly, we have <strong>three</strong> such experiments: RAND, Oregon, and one run by the IRS</li>
+</ul>
+</section></section>
+<section>
+<section id="the-oregon-lottery" class="title-slide slide level1 osu-section center">
+<h1>The Oregon lottery</h1>
+
+</section>
+<section id="more-applicants-than-money" class="slide level2">
+<h2>2008: more applicants than money</h2>
+<ul>
+<li>Oregon had budget to expand <strong>Medicaid</strong> to some — but not all — low-income adults ages 19–64</li>
+<li>Rather than first-come-first-served, the state allocated slots by <strong>randomized lottery</strong></li>
+<li>About 90,000 people signed up for the waiting list</li>
+<li>A fiscal constraint accidentally created a landmark scientific experiment</li>
+</ul>
+</section>
+<section id="the-lottery-design" class="slide level2">
+<h2>The lottery design</h2>
+<ul>
+<li><strong>Treatment group</strong>: about 30,000 people selected in the lottery and offered Medicaid</li>
+<li><strong>Control group</strong>: about 45,000 people who signed up but were not drawn</li>
+<li>Studied in a series of papers by Baicker, Finkelstein, and co-authors (Finkelstein et al.&nbsp;2012; Baicker et al.&nbsp;2013)</li>
+<li>Because selection was random, the two groups are identical <em>on average</em> — any later difference is caused by the lottery</li>
+</ul>
+</section>
+<section id="winning-was-not-the-same-as-enrolling" class="slide level2">
+<h2>Winning was not the same as enrolling</h2>
+<ul>
+<li>Winners still had to submit paperwork and meet the income rules</li>
+<li>Only about <strong>30%</strong> of lottery winners ended up enrolled in Medicaid</li>
+<li>Winning raised the chance of having coverage by roughly <strong>25 percentage points</strong></li>
+<li>So researchers compare <em>everyone selected</em> to <em>everyone not selected</em> — the <strong>intent-to-treat</strong> comparison — then scale up to get the effect of coverage itself</li>
+</ul>
+</section>
+<section id="method-spotlight-why-randomization-works" class="slide level2">
+<h2>Method spotlight: why randomization works</h2>
+<ul>
+<li class="fragment">With thousands of people, random draws balance <strong>everything</strong> — age, health, income, even things we can’t measure</li>
+<li class="fragment">Check: winners and losers looked nearly identical before the lottery</li>
+<li class="fragment">No self-selection into treatment → no adverse-selection bias</li>
+<li class="fragment">The lottery is the coin flip we could never ethically flip ourselves — a <strong>natural</strong> randomized experiment</li>
+</ul>
+</section>
+<section id="the-data" class="slide level2">
+<h2>The data</h2>
+<ul>
+<li>Medicaid administrative records: who actually enrolled</li>
+<li>Hospital and <strong>emergency department</strong> records from Portland-area hospitals</li>
+<li>Credit reports: medical debt, bills sent to collection</li>
+<li>Mail surveys plus about <strong>12,000 in-person interviews</strong> with blood tests and physical exams</li>
+<li>Big data + an experiment: the best of both worlds</li>
+</ul>
+</section></section>
+<section>
+<section id="effects-on-care-use" class="title-slide slide level1 osu-section center">
+<h1>Effects on care use</h1>
+
+</section>
+<section id="utilization-the-first-year" class="slide level2">
+<h2>Utilization: the first year</h2>
+<ul>
+<li>Medicaid increased use of nearly every kind of care (Finkelstein et al.&nbsp;2012):
+<ul>
+<li>Outpatient visits up about <strong>35%</strong></li>
+<li>Prescription drugs up about <strong>15%</strong></li>
+<li>Hospital admissions up about <strong>30%</strong></li>
+</ul></li>
+<li>Annual medical spending rose by roughly <strong>$778</strong> per person — about 25%</li>
+</ul>
+</section>
+<section id="preventive-care-went-up-mammograms-roughly-doubled" class="slide level2">
+<h2>Preventive care went up — mammograms roughly doubled</h2>
+<img data-src="img/oregon-preventive-care.jpg" class="r-stretch" alt="Bar chart of seven preventive services comparing control means to control means plus the Medicaid effect, with confidence intervals. Cholesterol checks rise from about 27 to 42 percent and mammograms for women 50 and older roughly double from 29 to 59 percent, with most services showing increases.">
+<div class="osu-src">
+<p>Source: Baicker et al.&nbsp;2013</p>
+</div>
+</section>
+<section id="insurance-finds-disease" class="slide level2">
+<h2>Insurance finds disease</h2>
+<img data-src="img/oregon-diagnosis-medication.jpg" class="r-stretch" alt="Bar chart of diagnosis and medication rates for hypertension, high cholesterol, diabetes, and depression. The clearest effect is diabetes: diagnoses rise from about 1 to 5 percent and medication use from about 6 to 12 percent, with confidence intervals excluding zero for both.">
+<div class="osu-src">
+<p>Source: Baicker et al.&nbsp;2013 — post-lottery diagnoses (Dx) and current medication (Rx)</p>
+</div>
+</section>
+<section id="finding-disease-is-the-first-step-to-treating-it" class="slide level2">
+<h2>Finding disease is the first step to treating it</h2>
+<ul>
+<li>Diabetes diagnoses jumped from ~1% to ~5%; diabetes medication use nearly doubled</li>
+<li>You can’t treat a condition you don’t know you have</li>
+</ul>
+</section>
+<section id="tophat-what-did-medicaid-do-to-emergency-department-visits" class="slide level2">
+<h2>TopHat: What did Medicaid do to emergency-department visits?</h2>
+<ul>
+<li>A common argument for expanding coverage: the uninsured use the <strong>ER</strong> for everything, so insurance should move them to cheaper primary care</li>
+<li><strong>A:</strong> ED visits fell</li>
+<li><strong>B:</strong> ED visits stayed about the same</li>
+<li><strong>C:</strong> ED visits rose</li>
+<li>Lock in your prediction</li>
+</ul>
+</section>
+<section id="the-ed-finding-medicaid-increased-ed-use-by-about-40" class="slide level2">
+<h2>The ED finding: Medicaid <strong>increased</strong> ED use by about 40%</h2>
+<img data-src="img/oregon-ed-use.jpg" class="r-stretch" alt="Bar chart showing the share with any ED visit rising from about 35 to 41 percent and the number of ED visits per person rising from about 1.0 to 1.4 under Medicaid, both with confidence intervals excluding zero.">
+<div class="osu-src">
+<p>Source: Taubman et al.&nbsp;2014</p>
+</div>
+</section>
+<section id="why-the-ed-result-surprised-people" class="slide level2">
+<h2>Why the ED result surprised people</h2>
+<ul>
+<li>The increase was roughly <strong>0.4 extra ED visits per person</strong> over 18 months</li>
+<li>Prediction was substitution: insured people would use primary care <em>instead of</em> the ER</li>
+<li>Instead, primary care went up <strong>and</strong> ED use went up</li>
+<li>Simple economics: Medicaid cut the out-of-pocket price of an ED visit to about zero — and demand curves slope down</li>
+<li>Newly covered people used more of <em>everything</em>, including care that is expensive to provide</li>
+</ul>
+</section></section>
+<section>
+<section id="financial-strain" class="title-slide slide level1 osu-section center">
+<h1>Financial strain</h1>
+
+</section>
+<section id="the-clearest-result-catastrophic-costs-nearly-eliminated" class="slide level2">
+<h2>The clearest result: catastrophic costs <strong>nearly eliminated</strong></h2>
+<img data-src="img/oregon-financial-hardship.jpg" class="r-stretch" alt="Bar chart of four financial hardship measures, all falling under Medicaid: any out-of-pocket spending drops from 59 to 44 percent, catastrophic expenditures fall from about 5.5 percent to near 1 percent, any medical debt falls from 57 to 44 percent, and borrowing or skipping bills falls from 24 to 10 percent.">
+<div class="osu-src">
+<p>Source: Baicker et al.&nbsp;2013. Catastrophic = out-of-pocket costs above 30% of income.</p>
+</div>
+</section>
+<section id="insurance-is-financial-protection" class="slide level2">
+<h2>Insurance is financial protection</h2>
+<ul>
+<li>Medical debt down about 13 percentage points; borrowing money or skipping other bills to pay medical bills down by more than half</li>
+<li>This is exactly what insurance is <em>for</em> — recall the two benefits from last class: <strong>risk protection</strong> and <strong>access</strong></li>
+<li>Even if coverage never changed anyone’s blood pressure, it changed their balance sheets</li>
+<li>Much of Medicaid’s value flows to recipients <em>and</em> to the providers and family members who were absorbing unpaid bills</li>
+</ul>
+</section></section>
+<section>
+<section id="effects-on-health" class="title-slide slide level1 osu-section center">
+<h1>Effects on health</h1>
+
+</section>
+<section id="mental-health-a-large-real-effect" class="slide level2">
+<h2>Mental health: a large, real effect</h2>
+<ul>
+<li>Screening positive for <strong>depression</strong> fell from 30% to 21% — a drop of about <strong>30%</strong> (Baicker et al.&nbsp;2013)</li>
+<li>One of the largest depression effects ever measured in a randomized setting</li>
+<li>Plausible channels: actual treatment, plus relief from financial stress</li>
+<li>Self-reported overall health also improved</li>
+</ul>
+</section>
+<section id="physical-health-no-detectable-effect-after-2-years" class="slide level2">
+<h2>Physical health: no detectable effect after ~2 years</h2>
+<img data-src="img/oregon-clinical-measures.jpg" class="r-stretch" alt="Bar chart of five clinical measures. Blood pressure, high total cholesterol, low HDL, and high hemoglobin A1c show small differences with confidence intervals spanning zero, while screening positive for depression falls from 30 to 21 percent with an interval excluding zero.">
+<div class="osu-src">
+<p>Source: Baicker et al.&nbsp;2013</p>
+</div>
+</section>
+<section id="tophat-what-is-the-best-reading-of-those-null-results" class="slide level2">
+<h2>TopHat: What is the best reading of those null results?</h2>
+<ul>
+<li><strong>A:</strong> Medicaid has zero effect on physical health</li>
+<li><strong>B:</strong> The study couldn’t detect effects of the size we’d realistically expect in 2 years</li>
+<li><strong>C:</strong> The data must be wrong</li>
+<li>Hint: look at how wide those confidence intervals are</li>
+</ul>
+</section>
+<section id="statistical-power" class="slide level2">
+<h2>Statistical power</h2>
+<ul>
+<li><strong>Power</strong>: a study’s ability to detect an effect of a given size if it is really there</li>
+<li>Only ~12,000 in-person exams, only ~2 years, and chronic disease moves slowly</li>
+<li>The confidence intervals are wide — they include zero <em>and</em> they include clinically meaningful improvements</li>
+<li>Absence of evidence is <strong>not</strong> evidence of absence</li>
+<li>Also: the control group wasn’t untreated — ERs and charity care still existed</li>
+</ul>
+</section></section>
+<section>
+<section id="the-medicaid-debate" class="title-slide slide level1 osu-section center">
+<h1>The Medicaid debate</h1>
+
+</section>
+<section id="same-study-dueling-headlines" class="slide level2">
+<h2>Same study, dueling headlines</h2>
+<ul>
+<li>2013, as states debated the ACA Medicaid expansion, both sides cited <strong>the same paper</strong>:
+<ul>
+<li>“Medicaid shows no improvement in physical health”</li>
+<li>“Medicaid cuts depression by a third and ends catastrophic medical costs”</li>
+</ul></li>
+<li>Both headlines are technically accurate</li>
+<li>Knowing the methods — power, intent-to-treat, confidence intervals — is what lets you referee this fight</li>
+</ul>
+</section>
+<section id="tophat-youre-the-journalist.-which-finding-leads-your-story" class="slide level2">
+<h2>TopHat: You’re the journalist. Which finding leads your story?</h2>
+<ul>
+<li><strong>A:</strong> ED visits up 40% — coverage increases costly care</li>
+<li><strong>B:</strong> No significant clinical effects — coverage may be overrated</li>
+<li><strong>C:</strong> Depression down 30%, catastrophic costs eliminated — coverage works</li>
+<li><strong>D:</strong> All of the above, with the uncertainty stated honestly</li>
+</ul>
+</section>
+<section id="a-third-experiment-run-by-the-irs" class="slide level2">
+<h2>A third experiment — run by the IRS</h2>
+<ul>
+<li>In 2017 the IRS sent letters to <strong>3.9 million households</strong> that had paid the ACA tax penalty (about $695 per adult) for being uninsured (Goldin et al.&nbsp;2021)</li>
+<li>Budget limits meant a random subset got <strong>no letter</strong> — another accidental randomized experiment</li>
+<li>Outcomes tracked in administrative tax and death records — sample size ~50 times Oregon’s</li>
+</ul>
+</section>
+<section id="the-nudge-just-the-penalty-amount-and-where-to-sign-up" class="slide level2">
+<h2>The nudge: just the penalty amount, and where to sign up</h2>
+<img data-src="img/irs-letter-insurance.jpg" class="r-stretch" alt="An IRS letter dated January 2017 explaining that the recipient paid a penalty for lacking health coverage, that the 2017 penalty will be at least 695 dollars per adult, and that plans are available at HealthCare.gov for 75 dollars a month or less, with sign-up instructions and the January 31 deadline.">
+<div class="osu-src">
+<p>Source: Goldin et al.&nbsp;2021</p>
+</div>
+</section>
+<section id="letters-increased-coverage-by-2-points-and-it-persisted" class="slide level2">
+<h2>Letters increased coverage by ~2 points — and it persisted…</h2>
+<img data-src="img/irs-experiment-coverage.jpg" class="r-stretch" alt="Two-panel figure. Panel A shows coverage rates for treatment and control groups tracking identically through 2016, then the treatment line jumps above control right after the January 2017 letters. Panel B shows the treatment-control difference leaping from zero to about 2 percentage points and slowly fading while remaining above 1 point through 2018.">
+<div class="osu-src">
+<p>Source: Goldin et al.&nbsp;2021</p>
+</div>
+</section>
+<section id="and-reduced-mortality-the-first-experimental-evidence" class="slide level2">
+<h2>…and reduced mortality: the first experimental evidence</h2>
+<img data-src="img/irs-experiment-mortality.jpg" class="r-stretch" alt="Two-panel figure. Panel A shows cumulative mortality curves for treatment and control groups that overlap before the letters and then separate, with the control group dying at a higher rate. Panel B shows the mortality difference growing to about minus 0.06 percentage points by the end of 2018, with confidence intervals excluding zero.">
+<div class="osu-src">
+<p>Source: Goldin et al.&nbsp;2021 — adults 45–64; the first experimental evidence that coverage reduces deaths in the U.S.</p>
+</div>
+</section>
+<section id="where-the-debate-stands" class="slide level2 smaller">
+<h2>Where the debate stands</h2>
+<ul>
+<li class="fragment"><strong>Settled</strong>: coverage increases care use (including the ED), slashes financial hardship, and improves mental health</li>
+<li class="fragment"><strong>Was uncertain</strong>: effects on physical health — Oregon was too small to tell</li>
+<li class="fragment"><strong>Emerging</strong>: with far larger samples, coverage appears to reduce mortality among middle-aged adults</li>
+<li class="fragment"><strong>Keep it in perspective</strong>: these effects are probably too small to explain the large income differences in health we saw earlier in this topic — coverage alone won’t close that gap</li>
+<li class="fragment">The live policy question is no longer <em>whether</em> coverage helps, but <em>how much it’s worth relative to what it costs</em></li>
+</ul>
+</section>
+<section id="recap-2" class="slide level2">
+<h2>Recap</h2>
+<ul>
+<li>Comparing insured to uninsured people is confounded by selection — Oregon’s lottery solved that with randomization</li>
+<li>Medicaid: care use up (~25% more spending, ED visits <strong>up 40%</strong>)</li>
+<li>Financial hardship way down; depression down ~30%; clinical measures — null, but the study was underpowered</li>
+<li>Same results fueled opposite headlines; methods literacy referees the debate</li>
+<li>IRS experiment: at scale, coverage saves lives</li>
+</ul>
+</section></section>
+<section>
+<section id="session-s16" class="title-slide slide level1 osu-section center">
+<h1>Health insurance III: subsidies and policy design</h1>
+
+</section>
+<section id="todays-question-3" class="slide level2">
+<h2>Today’s question</h2>
+<blockquote>
+<p>Most low-income adults value health insurance at far less than it costs to provide. Should the government subsidize it anyway — and by how much?</p>
+</blockquote>
+<ul>
+<li>Last two classes: what insurance <em>does</em> and why private markets for it struggle</li>
+<li>Today: how much people actually <em>value</em> coverage — and how to design a subsidy</li>
+<li>Reading: Finkelstein, Hendren, and Shepard (2019) on Massachusetts</li>
+</ul>
+</section>
+<section id="where-were-headed-3" class="slide level2">
+<h2>Where we’re headed</h2>
+<ul>
+<li>Massachusetts’ 2006 reform — the dress rehearsal for the ACA</li>
+<li>A clever natural experiment that reveals <strong>willingness to pay</strong> for insurance</li>
+<li>The striking finding: willingness to pay sits far <strong>below cost</strong></li>
+<li>Why: <strong>uncompensated care</strong> and the value of cash</li>
+<li>What that means for <strong>optimal subsidies</strong> — and heads up: <strong>Exam 2 is next class</strong></li>
+</ul>
+</section>
+<section id="recap-the-story-so-far" class="slide level2">
+<h2>Recap: the story so far</h2>
+<ul>
+<li>Insurance trades a small, certain premium for protection against rare, huge losses (adverse selection class)</li>
+<li><strong>Adverse selection</strong> can unravel private markets: the sick buy, the healthy leave, premiums spiral (adverse selection class)</li>
+<li><strong>Oregon</strong>: Medicaid coverage raised utilization, cut financial hardship, and reduced depression (Oregon experiment class)</li>
+<li>Open question today: what is coverage <em>worth</em> to people — and who should pay for it?</li>
+</ul>
+</section></section>
+<section>
+<section id="massachusetts-the-acas-dress-rehearsal" class="title-slide slide level1 osu-section center">
+<h1>Massachusetts: the ACA’s dress rehearsal</h1>
+
+</section>
+<section id="the-2006-massachusetts-reform" class="slide level2">
+<h2>The 2006 Massachusetts reform</h2>
+<ul>
+<li>Bipartisan state law signed by Governor Mitt Romney in 2006 — nicknamed “Romneycare”</li>
+<li>Goal: near-universal health insurance coverage in one state</li>
+<li>Three tools: insurance market rules, an individual mandate, and income-based subsidies</li>
+<li>It worked on its own terms: Massachusetts’ uninsured rate fell to the <strong>lowest in the nation</strong> (around 3%)</li>
+</ul>
+</section>
+<section id="the-three-legged-stool" class="slide level2">
+<h2>The three-legged stool</h2>
+<ol type="1">
+<li class="fragment"><strong>Market rules</strong> — insurers must cover everyone at a common premium, healthy or sick (no pre-existing-condition denials)</li>
+<li class="fragment"><strong>Individual mandate</strong> — a tax penalty for going uninsured, so healthy people stay in the pool</li>
+<li class="fragment"><strong>Subsidies</strong> — sliding-scale help so the mandate is affordable at low incomes</li>
+</ol>
+<ul>
+<li>Remove one leg and the stool tips: rules without a mandate invite adverse selection; a mandate without subsidies is unaffordable</li>
+</ul>
+</section>
+<section id="commonwealth-care" class="slide level2">
+<h2>Commonwealth Care</h2>
+<ul>
+<li>The subsidy leg: <strong>CommCare</strong>, a state exchange selling subsidized private plans</li>
+<li>Eligible: adults below <strong>300% of the federal poverty line</strong> without employer coverage or Medicaid</li>
+<li>Coverage is free below 150% of the poverty line; above that, enrollees pay a premium that <strong>rises with income in steps</strong></li>
+<li>This program generates today’s data (Finkelstein, Hendren, and Shepard 2019)</li>
+</ul>
+</section>
+<section id="from-boston-to-washington" class="slide level2">
+<h2>From Boston to Washington</h2>
+<ul>
+<li>The 2010 <strong>Affordable Care Act</strong> copied the architecture nationally: exchanges + sliding-scale subsidies + mandate + market rules</li>
+<li>Many of the same policy designers worked on both laws</li>
+<li>So evidence from CommCare speaks directly to the ACA’s central design question:</li>
+<li><strong>How generous do subsidies have to be?</strong></li>
+</ul>
+</section></section>
+<section>
+<section id="measuring-willingness-to-pay" class="title-slide slide level1 osu-section center">
+<h1>Measuring willingness to pay</h1>
+
+</section>
+<section id="method-spotlight-willingness-to-pay" class="slide level2">
+<h2>Method spotlight: willingness to pay</h2>
+<ul>
+<li><strong>Willingness to pay (WTP)</strong>: the most a person would pay for something rather than go without it</li>
+<li>A demand curve is just people lined up in order of WTP, highest first</li>
+<li>If we watch how enrollment changes as the price changes, we can trace out the demand curve — and read off how much coverage is worth to people</li>
+<li>That number, not utilization, is what cost-benefit analysis needs</li>
+</ul>
+</section>
+<section id="the-problem-prices-dont-vary-randomly" class="slide level2">
+<h2>The problem: prices don’t vary randomly</h2>
+<ul>
+<li>We can’t just ask people what they’d pay — talk is cheap</li>
+<li>We need to see real choices at different prices</li>
+<li>But people facing different premiums usually differ in other ways too (health, age, income)</li>
+<li>We need price variation that is <strong>as good as random</strong></li>
+</ul>
+</section>
+<section id="the-natural-experiment-in-the-subsidy-schedule" class="slide level2 smaller">
+<h2>The natural experiment in the subsidy schedule</h2>
+<p>CommCare’s monthly enrollee premium for the cheapest plan (2011):</p>
+<table class="caption-top">
+<thead>
+<tr class="header">
+<th>Income (% of poverty line)</th>
+<th>Enrollee premium / month</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Below 150%</td>
+<td>$0</td>
+</tr>
+<tr class="even">
+<td>150–200%</td>
+<td>$39</td>
+</tr>
+<tr class="odd">
+<td>200–250%</td>
+<td>$77</td>
+</tr>
+<tr class="even">
+<td>250–300%</td>
+<td>$116</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>Earn $1 over a cutoff and your price <strong>jumps</strong> — compare people just above vs.&nbsp;just below: a <strong>regression discontinuity</strong> in prices (the Part 2 toolkit, back again)</li>
+</ul>
+</section>
+<section id="tophat-how-many-buy-at-a-quarter-of-cost" class="slide level2">
+<h2>TopHat: How many buy at a quarter of cost?</h2>
+<blockquote>
+<p>A premium of about $130/month was roughly <strong>25% of what coverage actually cost</strong> insurers. What share of eligible adults do you think enrolled at that price?</p>
+</blockquote>
+<ul>
+<li><strong>A.</strong> About 90%</li>
+<li><strong>B.</strong> About 70%</li>
+<li><strong>C.</strong> About 50%</li>
+<li><strong>D.</strong> About 20%</li>
+</ul>
+</section>
+<section id="demand-falls-fast" class="slide level2">
+<h2>Demand falls fast</h2>
+<!-- TODO figure: FHS willingness-to-pay (demand) curve plotted against the average-cost and marginal-cost curves for CommCare enrollees, showing the demand curve lying below average cost essentially everywhere (Finkelstein, Hendren, and Shepard 2019; not present in extracted source decks lecture-19 or lecture-22-new) -->
+<ul>
+<li>Enrollment drops about <strong>25% for every $40</strong> increase in the monthly premium (Finkelstein, Hendren, and Shepard 2019)</li>
+<li>At premiums equal to ~25% of insurers’ average cost, <strong>at most half</strong> of eligible adults buy coverage</li>
+<li>Even at premiums of just 10% of average cost, <strong>at least 20% remain uninsured</strong></li>
+</ul>
+</section>
+<section id="the-headline-finding" class="slide level2">
+<h2>The headline finding</h2>
+<ul>
+<li>For at least <strong>70%</strong> of this low-income population, willingness to pay is <strong>less than half</strong> of the cost they would impose on the insurer</li>
+<li>Not a rounding error — a chasm between value and cost</li>
+<li>Nobody would design a market expecting people to buy a product they value at less than half its price</li>
+<li>This gap is the central puzzle of today’s class</li>
+</ul>
+</section></section>
+<section>
+<section id="adverse-selection-along-the-demand-curve" class="title-slide slide level1 osu-section center">
+<h1>Adverse selection along the demand curve</h1>
+
+</section>
+<section id="who-buys-when-the-price-is-high" class="slide level2">
+<h2>Who buys when the price is high?</h2>
+<ul>
+<li>The demand curve ranks people by WTP — and for insurance, WTP tracks <strong>expected sickness</strong></li>
+<li>So the people willing to pay the most are also the <strong>costliest to cover</strong></li>
+<li>As the premium falls and enrollment grows, each newly attracted enrollee is <em>healthier and cheaper</em> than those already in</li>
+<li>Demand and cost curves are <strong>linked</strong> — that is what makes insurance markets special</li>
+</ul>
+</section>
+<section id="marginal-vs.-average-cost" class="slide level2">
+<h2>Marginal vs.&nbsp;average cost</h2>
+<ul>
+<li><strong>Average cost</strong>: insurer spending per enrollee among those currently enrolled</li>
+<li><strong>Marginal cost</strong>: spending on the <em>next</em> person who would enroll if the price fell a little</li>
+<li>FHS finding: marginal enrollees always cost <strong>less</strong> than average enrollees — at every price</li>
+<li>This is <strong>adverse selection along the demand curve</strong> (Einav and Finkelstein 2011)</li>
+</ul>
+</section>
+<section id="tophat-premiums-go-up.-who-leaves-first" class="slide level2">
+<h2>TopHat: Premiums go up. Who leaves first?</h2>
+<blockquote>
+<p>CommCare raises its premiums by $40 a month. Which enrollees drop coverage first?</p>
+</blockquote>
+<ul>
+<li><strong>A.</strong> The sickest, most expensive enrollees</li>
+<li><strong>B.</strong> The healthiest, cheapest enrollees</li>
+<li><strong>C.</strong> A random mix of enrollees</li>
+</ul>
+</section>
+<section id="why-a-private-market-unravels-here" class="slide level2">
+<h2>Why a private market unravels here</h2>
+<ul>
+<li>A private insurer must charge at least <strong>average cost</strong> to break even</li>
+<li>But almost everyone’s WTP is far <em>below</em> average cost</li>
+<li>Unsubsidized equilibrium: premiums high, pool small and sick — the death-spiral logic from the adverse selection class, now measured in real data</li>
+<li>Subsidies do double duty: they raise coverage <em>and</em> pull in healthy enrollees who improve the risk pool</li>
+</ul>
+</section></section>
+<section>
+<section id="why-is-willingness-to-pay-so-low" class="title-slide slide level1 osu-section center">
+<h1>Why is willingness to pay so low?</h1>
+
+</section>
+<section id="the-puzzle" class="slide level2">
+<h2>The puzzle</h2>
+<ul>
+<li>The adverse selection class said risk-averse people should pay <em>more</em> than the actuarially fair premium — that’s why insurance exists</li>
+<li>Yet low-income adults in Massachusetts won’t pay even <strong>half of cost</strong></li>
+<li>Are they making a mistake?</li>
+<li>Or is something else going on?</li>
+</ul>
+</section>
+<section id="tophat-the-10000-hospital-bill" class="slide level2">
+<h2>TopHat: The $10,000 hospital bill</h2>
+<blockquote>
+<p>An uninsured person is hospitalized and billed $10,000. About how much do uninsured patients typically end up paying out of their own pockets?</p>
+</blockquote>
+<ul>
+<li><strong>A.</strong> About $8,000</li>
+<li><strong>B.</strong> About $5,000</li>
+<li><strong>C.</strong> About $2,000</li>
+<li><strong>D.</strong> $0</li>
+</ul>
+</section>
+<section id="uncompensated-care-implicit-insurance" class="slide level2">
+<h2>Uncompensated care: implicit insurance</h2>
+<ul>
+<li>Hospitals must treat emergencies regardless of insurance; charity care and unpaid bills absorb much of the rest</li>
+<li>The uninsured end up paying only about <strong>20 cents of every dollar</strong> of care they receive</li>
+<li>So the uninsured already hold <em>implicit</em> insurance — formal coverage partly pays for care someone else was already covering</li>
+<li>That mechanically drags down willingness to pay for a formal policy</li>
+</ul>
+</section>
+<section id="cash-is-scarce-at-low-incomes" class="slide level2">
+<h2>Cash is scarce at low incomes</h2>
+<ul>
+<li>A dollar is worth more when you have very few of them</li>
+<li>Premiums compete with rent and groceries <em>today</em>; insurance pays off only in rare bad states of the world</li>
+<li>For a family at 200% of the poverty line, $77/month is a real sacrifice</li>
+<li>Low WTP is not necessarily a mistake — it can be a rational response to a tight budget plus an implicit safety net</li>
+</ul>
+</section>
+<section id="uncompensated-care-is-not-free" class="slide level2">
+<h2>Uncompensated care is not free</h2>
+<ul>
+<li><em>Somebody</em> pays the other 80 cents: hospitals, state programs, and ultimately taxpayers and other patients</li>
+<li>When a person gains coverage, part of the insurer’s cost simply <strong>replaces</strong> uncompensated care that others were already funding</li>
+<li>Covering the uninsured therefore creates an <strong>external benefit</strong> to the rest of society</li>
+<li>That externality is the key to thinking about the subsidy</li>
+</ul>
+</section></section>
+<section>
+<section id="designing-the-subsidy" class="title-slide slide level1 osu-section center">
+<h1>Designing the subsidy</h1>
+
+</section>
+<section id="the-optimal-subsidy-logic" class="slide level2">
+<h2>The optimal subsidy logic</h2>
+<ul>
+<li>Subsidize coverage as long as its <strong>social value</strong> exceeds its <strong>social cost</strong></li>
+<li>Social value = enrollee’s own WTP <strong>+</strong> uncompensated care avoided <strong>+</strong> a healthier risk pool (marginal enrollees are cheap)</li>
+<li>WTP alone would justify only small subsidies — the externalities close much of the gap</li>
+<li>The gap that remains is a genuine policy judgment: how much do we value coverage people wouldn’t buy themselves?</li>
+</ul>
+</section>
+<section id="what-the-estimates-imply" class="slide level2">
+<h2>What the estimates imply</h2>
+<ul>
+<li>To cover most eligible low-income adults, premiums must be pushed to roughly <strong>10% of cost or less</strong> — subsidies of about <strong>90%</strong></li>
+<li>Modest subsidies buy only modest coverage: there is <strong>no cheap path</strong> to near-universal coverage</li>
+<li>This is exactly why ACA subsidies are largest at the bottom of the income distribution and phase out as income rises</li>
+<li>Massachusetts got near-universal coverage by paying for it</li>
+</ul>
+</section>
+<section id="what-about-the-mandate" class="slide level2">
+<h2>What about the mandate?</h2>
+<ul>
+<li>The stick instead of the carrot: Massachusetts, then the ACA, penalized going uninsured (in 2017, at least $695 per adult)</li>
+<li>The federal penalty was set to zero starting in 2019</li>
+<li>Nudges matter too: IRS letters reminding households of the penalty measurably raised coverage — and even reduced mortality (Goldin, Lurie, and McCubbin 2021)</li>
+<li>But when WTP is far below cost, penalties on low-income families are hard to justify and hard to enforce — subsidies do the heavy lifting</li>
+</ul>
+</section>
+<section id="tophat-your-call" class="slide level2">
+<h2>TopHat: Your call</h2>
+<blockquote>
+<p>Low-income adults value coverage at less than half its cost, but covering them relieves taxpayers of uncompensated care. What should policy do?</p>
+</blockquote>
+<ul>
+<li><strong>A.</strong> Subsidize ~90% of the premium — aim for universal coverage</li>
+<li><strong>B.</strong> Partial subsidies — cover those who value it most</li>
+<li><strong>C.</strong> No subsidy — rely on the mandate alone</li>
+<li><strong>D.</strong> Neither — let the market decide</li>
+</ul>
+</section>
+<section id="the-stakes-in-2017" class="slide level2">
+<h2>The stakes in 2017</h2>
+<img data-src="img/nyt-trumpcare-fhs-article.jpg" class="r-stretch" alt="Screenshot of a New York Times article by David Leonhardt titled 'The New Study That Shows Trumpcare's Damage,' explaining that Massachusetts' insurance expansion created a real-world experiment showing what would happen if the House Republicans' health bill became law.">
+<div class="osu-src">
+<p>Source: Leonhardt, “The New Study That Shows Trumpcare’s Damage,” New York Times, May 3, 2017.</p>
+</div>
+</section>
+<section id="the-stakes-in-2017-what-the-evidence-implied" class="slide level2">
+<h2>The stakes in 2017: what the evidence implied</h2>
+<ul>
+<li>The FHS findings entered the national debate over repealing the ACA</li>
+<li>The 2017 repeal bill offered flat, much smaller subsidies</li>
+<li>Hendren’s estimate: enrollment would effectively collapse for families making under $75,000 — nearly the whole subsidized market</li>
+</ul>
+</section>
+<section id="recap-3" class="slide level2 smaller">
+<h2>Recap</h2>
+<ul>
+<li>Massachusetts 2006 = the ACA prototype: market rules + mandate + subsidies</li>
+<li>Premium discontinuities trace out demand: enrollment falls ~25% per $40; WTP is below <strong>half of cost</strong> for at least 70% of eligible adults</li>
+<li>Marginal enrollees are cheaper than average — adverse selection along the demand curve</li>
+<li>WTP is low because the uninsured pay only ~20 cents per dollar of care (uncompensated care) and cash is scarce</li>
+<li>Near-universal coverage requires ~90% subsidies — the externality argument helps justify them</li>
+</ul>
+</section>
+<section id="exam-2-is-next-class" class="slide level2">
+<h2>Exam 2 is next class</h2>
+<ul>
+<li><strong>Thursday, October 29, 2026</strong>, in class, 200 points</li>
+<li>Covers everything since Exam 1 — Classes 10–17 (teachers and charters, differences in opportunity, prediction, and health)</li>
+<li>The Exam 2 study guide is posted on the course site</li>
+<li>Best preparation: your guided notes, the TopHat questions, and the study guide — today’s material is fair game</li>
+</ul>
+</section></section>
+<section>
+<section id="session-s17" class="title-slide slide level1 osu-section center">
+<h1>The opioid crisis and drug policy</h1>
+
+</section>
+<section id="todays-question-4" class="slide level2">
+<h2>Today’s question</h2>
+<blockquote>
+<p>Why do roughly 100,000 Americans a year die of drug overdoses — and which policies actually reduce deaths?</p>
+</blockquote>
+<ul>
+<li>The deadliest drug epidemic in American history, still ongoing</li>
+<li>Today’s material comes largely from my own research area</li>
+<li>Two big policy levers: <strong>demand-side</strong> (prescribing, monitoring) and <strong>supply-side</strong> (interdiction, restricting the drug itself)</li>
+</ul>
+</section>
+<section id="where-were-headed-4" class="slide level2">
+<h2>Where we’re headed</h2>
+<ul>
+<li>How bad is it? The three <strong>waves</strong> of the crisis</li>
+<li>A <strong>natural experiment</strong>: triplicate-prescription states and the launch of OxyContin</li>
+<li>Demand-side policies: prescription limits, abuse-deterrent formulations, and <strong>PDMPs</strong></li>
+<li>Supply-side evidence: Australia’s 1990s heroin crisis</li>
+<li>The bigger picture: <strong>deaths of despair</strong></li>
+</ul>
+</section></section>
+<section>
+<section id="how-bad-is-it" class="title-slide slide level1 osu-section center">
+<h1>How bad is it?</h1>
+
+</section>
+<section id="tophat-which-killed-more-americans-in-2023" class="slide level2">
+<h2>TopHat: Which killed more Americans in 2023?</h2>
+<ul>
+<li><strong>A.</strong> Motor vehicle crashes</li>
+<li><strong>B.</strong> Firearms</li>
+<li><strong>C.</strong> Drug overdoses</li>
+<li><strong>D.</strong> Homicides</li>
+<li>Lock in your answer — then we’ll look at the data</li>
+</ul>
+</section>
+<section id="overdoses-passed-car-crashes-around-2009" class="slide level2">
+<h2>Overdoses passed car crashes around 2009</h2>
+<img data-src="img/overdose-vs-motor-vehicle-deaths.jpg" class="r-stretch" alt="Line chart from 1999 to 2014 where drug overdose deaths climb steadily from about 17,000 to nearly 50,000 while motor vehicle deaths drift down from about 38,000 to 31,000; the drug line crosses above the motor vehicle line around 2009.">
+<div class="osu-src">
+<p>Source: Hollingsworth, Ruhm, and Simon (2017); CDC data.</p>
+</div>
+</section>
+<section id="the-scale-of-the-problem" class="slide level2 smaller">
+<h2>The scale of the problem</h2>
+<div class="columns">
+<div class="column" style="width:40%;">
+<ul>
+<li>Roughly <strong>2 million</strong> Americans have an opioid use disorder</li>
+<li><strong>97 million</strong> took prescription painkillers in 2015 — <strong>12 million</strong> without a prescription</li>
+<li>Deaths peaked above <strong>100,000 per year</strong> in 2021–2023 — the <strong>leading cause of death</strong> for ages 18–49</li>
+<li>No other rich country is close — a <strong>distinctly American</strong> crisis</li>
+</ul>
+</div><div class="column" style="width:60%;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="img/us-drug-death-share-international.jpg" class="quarto-figure quarto-figure-center" style="width:76.0%" alt="Spaghetti chart of many countries' shares of deaths classified as drug-related from 2000 to 2015; a red U.S. line rises from under 1 percent to well above 1.5 percent, far above every other country including Iceland, Scotland, and Canada."></p>
+</figure>
+</div>
+</div></div>
+<div class="osu-src">
+<p>Source: New York Times.</p>
+</div>
+</section>
+<section id="among-children-overdose-deaths-doubled-in-2020-alone" class="slide level2">
+<h2>Among children, overdose deaths doubled in 2020 alone</h2>
+<img data-src="img/leading-causes-death-children.jpeg" class="r-stretch" alt="Line chart of death rates per 100,000 children by cause from 1999 to 2020: motor vehicle crashes fall from 10 to about 5, firearm deaths rise to overtake them in 2020, and drug overdose deaths roughly double in a single year (2019 to 2020) to become a top-five cause.">
+<div class="osu-src">
+<p>Source: Goldstick et al.&nbsp;(2022), NEJM.</p>
+</div>
+</section>
+<section id="why-fentanyl-changed-everything" class="slide level2">
+<h2>Why fentanyl changed everything</h2>
+<img data-src="img/fentanyl-lethal-dose-penny.jpg" class="r-stretch" alt="Photograph of a U.S. penny next to a tiny pile of white powder only a few millimeters across, showing that a lethal dose of fentanyl is small enough to sit on Lincoln's cheek.">
+<p><span class="osu-overlay absolute" style="top: 14%; right: 7%; ">A lethal dose: about 2 milligrams</span></p>
+<div class="osu-src">
+<p>Source: DEA photo.</p>
+</div>
+</section>
+<section id="fentanyl-in-three-facts" class="slide level2">
+<h2>Fentanyl, in three facts</h2>
+<ul>
+<li>Roughly <strong>50× more potent than heroin</strong>; a lethal dose is ~2 mg</li>
+<li>Cheap to make in a lab, easy to smuggle, easy to mix into other drugs</li>
+<li>Users often don’t know fentanyl is in what they bought</li>
+</ul>
+</section></section>
+<section>
+<section id="three-waves-of-the-crisis" class="title-slide slide level1 osu-section center">
+<h1>Three waves of the crisis</h1>
+
+</section>
+<section id="one-crisis-three-waves" class="slide level2">
+<h2>One crisis, three waves</h2>
+<img data-src="img/overdose-deaths-three-waves.jpg" class="r-stretch" alt="Line chart of overdose deaths by drug: prescription opioids rise steadily from 1999 to about 2010 and then plateau; heroin deaths surge after 2010; fentanyl and synthetic opioid deaths explode after 2013, reaching about 50,000 by 2020 and dwarfing every other category.">
+<div class="osu-src">
+<p>U.S. drug overdose deaths by drug type, 1999–2020. Source: The Economist; CDC data.</p>
+</div>
+</section>
+<section id="naming-the-waves" class="slide level2">
+<h2>Naming the waves</h2>
+<ul>
+<li class="fragment"><strong>Wave 1</strong> (late 1990s–2010): prescription opioids</li>
+<li class="fragment"><strong>Wave 2</strong> (~2010–2013): heroin</li>
+<li class="fragment"><strong>Wave 3</strong> (2013–): fentanyl and synthetic opioids</li>
+</ul>
+</section>
+<section id="wave-1-americas-prescribing-habit" class="slide level2">
+<h2>Wave 1: America’s prescribing habit</h2>
+<img data-src="img/opioid-use-days-by-country.jpg" class="r-stretch" alt="Bar chart where the U.S. leads at 17.4 average days of opioid use per resident per year, ahead of Canada at 12.6, Germany at 11.2, and every other country shown; the Netherlands is lowest at 5.1.">
+<p><span class="osu-overlay-dark absolute" style="bottom: 18%; right: 6%; "><strong>17.4 days</strong> per resident per year — ~40% above Canada</span></p>
+<div class="osu-src">
+<p>Source: International Narcotics Control Board, via New York Times.</p>
+</div>
+</section>
+<section id="why-did-this-happen-no-single-cause" class="slide level2">
+<h2>Why did this happen? No single cause</h2>
+<ul>
+<li><strong>Drug companies</strong>: unprecedented marketing of a scheduled substance to physicians; claims that addiction risk was low</li>
+<li><strong>Insurers</strong>: pills reimbursed more readily than physical therapy</li>
+<li><strong>Drug trafficking organizations</strong>: e.g., Xalisco heroin cells delivering like pizza (Quinones, <em>Dreamland</em>)</li>
+<li><strong>Culture of pain treatment</strong>: pain as “the fifth vital sign”</li>
+<li>Multiple causes — but can we isolate any <em>one</em> of them credibly?</li>
+</ul>
+</section></section>
+<section>
+<section id="a-natural-experiment-triplicate-states" class="title-slide slide level1 osu-section center">
+<h1>A natural experiment: triplicate states</h1>
+
+</section>
+<section id="method-spotlight-natural-experiments" class="slide level2">
+<h2>Method spotlight: natural experiments</h2>
+<ul>
+<li>A <strong>natural experiment</strong>: a policy or event — <em>not designed as research</em> — that splits otherwise-similar groups into treated and untreated</li>
+<li>We compare outcomes across groups the event created, just like a randomized experiment</li>
+<li>The key assumption: absent the event, the groups would have moved in <strong>parallel</strong></li>
+<li>Today’s example is one of the cleanest in health economics</li>
+</ul>
+</section>
+<section id="oxycontin-1996" class="slide level2">
+<h2>OxyContin, 1996</h2>
+<ul>
+<li>Purdue Pharma launches <strong>OxyContin</strong>: a slow-release, high-dose oxycodone pill</li>
+<li>Marketed aggressively to physicians as safe for everyday chronic pain with low addiction risk</li>
+<li>Sales reps, speaker fees, and ad campaigns on a scale never before seen for a controlled substance</li>
+<li>But Purdue did <em>not</em> market equally hard everywhere…</li>
+</ul>
+</section>
+<section id="five-states-were-different" class="slide level2">
+<h2>Five states were different</h2>
+<ul>
+<li><strong>California, Idaho, Illinois, New York, Texas</strong> had “triplicate prescription” programs: Schedule II drugs required a special three-copy form, with one copy going to the state</li>
+<li>Extra hassle + state surveillance → doctors prescribed fewer Schedule II drugs</li>
+<li>Purdue’s own internal documents: triplicate states were a weak market, so <strong>focus marketing on the other 45 states</strong></li>
+<li>Nature just ran an experiment: 5 low-exposure states vs.&nbsp;45 high-exposure states (Alpert et al.&nbsp;2022)</li>
+</ul>
+</section>
+<section id="tophat-what-makes-this-comparison-credible" class="slide level2">
+<h2>TopHat: What makes this comparison credible?</h2>
+<blockquote>
+<p>To treat triplicate vs.&nbsp;non-triplicate states as an experiment, what do we most need to be true?</p>
+</blockquote>
+<ul>
+<li><strong>A.</strong> The two groups had identical overdose rates in 1995</li>
+<li><strong>B.</strong> Absent OxyContin, the two groups’ overdose deaths would have trended in parallel</li>
+<li><strong>C.</strong> Triplicate laws were assigned randomly</li>
+<li><strong>D.</strong> No one moved between states</li>
+</ul>
+</section>
+<section id="what-happened-after-1996" class="slide level2">
+<h2>What happened after 1996</h2>
+<img data-src="img/triplicate-vs-nontriplicate-overdoses.jpg" class="r-stretch" alt="Two-panel line chart of overdose deaths per 100,000 from 1983 to 2017 with a vertical line at 1996: before 1996 triplicate states (dashed) sit slightly above non-triplicate states (solid) with parallel trends; after 1996 non-triplicate states diverge sharply upward, reaching roughly 25 vs. 14 per 100,000 for all drug deaths by 2017.">
+<div class="osu-src">
+<p>Overdose death rates, triplicate vs.&nbsp;non-triplicate states, 1983–2017. Source: Alpert, Evans, Lieber, and Powell (2022).</p>
+</div>
+</section>
+<section id="two-decades-later-the-gap-is-still-there" class="slide level2 smaller">
+<h2>Two decades later, the gap is still there</h2>
+<ul>
+<li class="fragment">Before 1996: triplicate states had <em>slightly higher</em> overdose deaths, moving in parallel with the rest</li>
+<li class="fragment">After launch: non-triplicate states diverge — and keep diverging for <strong>20+ years</strong>, right through the heroin and fentanyl waves</li>
+<li class="fragment">Marketing exposure in the 1990s predicts fentanyl deaths in 2017</li>
+<li class="fragment">Lesson 1: the crisis has <strong>supply-side origins</strong> — it wasn’t just pre-existing demand</li>
+<li class="fragment">Lesson 2: addiction makes early exposure <strong>extraordinarily persistent</strong></li>
+</ul>
+</section></section>
+<section>
+<section id="demand-side-policies" class="title-slide slide level1 osu-section center">
+<h1>Demand-side policies</h1>
+
+</section>
+<section id="the-policy-menu" class="slide level2">
+<h2>The policy menu</h2>
+<ul>
+<li>Cut new addictions: <strong>initial prescription limits</strong></li>
+<li>Make pills harder to misuse: <strong>abuse-deterrent formulations</strong></li>
+<li>Catch misuse and doctor shopping: <strong>prescription drug monitoring programs (PDMPs)</strong></li>
+<li>(Plus: naloxone access, treatment expansion, harm reduction — a full course on their own)</li>
+<li>For each: what does credible evidence say?</li>
+</ul>
+</section>
+<section id="do-prescription-limits-work" class="slide level2">
+<h2>Do prescription limits work?</h2>
+<div class="columns">
+<div class="column" style="width:37%;">
+<ul>
+<li>Limits do <strong>bind</strong>: long first prescriptions largely disappear</li>
+<li>But effects on opioid <strong>initiation</strong> are modest — most first scripts were already short</li>
+</ul>
+</div><div class="column" style="width:63%;">
+<p><img data-src="img/initial-prescription-days-supply.jpg" alt="Histogram of initial prescription lengths: solid bars for no-limit states show spikes at 3, 5, 10, 14, and 30 days; hollow outlined bars for states with a 7-day limit show more mass at 7 days or less and much less mass at 10, 14, and 30 days — the limits visibly truncate long first prescriptions."></p>
+</div></div>
+<div class="osu-src">
+<p>Days supplied in initial opioid prescriptions, states with vs.&nbsp;without a 7-day limit. Source: Sacks, Hollingsworth, Nguyen, and Simon (2021).</p>
+</div>
+</section>
+<section id="abuse-deterrent-formulations" class="slide level2">
+<h2>Abuse-deterrent formulations</h2>
+<ul>
+<li>Many users crushed OxyContin to snort or inject it — defeating the slow release and getting the full dose at once</li>
+<li>In <strong>2010</strong>, Purdue reformulated OxyContin to be nearly impossible to crush</li>
+<li>On paper: the flagship abuse-deterrent formulation (ADF)</li>
+<li>What would an economist predict happens next?</li>
+</ul>
+</section>
+<section id="tophat-after-the-2010-reformulation" class="slide level2">
+<h2>TopHat: After the 2010 reformulation…</h2>
+<blockquote>
+<p>OxyContin becomes very hard to misuse, but addiction is unchanged. What happens?</p>
+</blockquote>
+<ul>
+<li><strong>A.</strong> Overdose deaths fall — misuse becomes too difficult</li>
+<li><strong>B.</strong> Nothing changes</li>
+<li><strong>C.</strong> Users substitute to heroin; total deaths don’t fall</li>
+<li><strong>D.</strong> Prescription deaths rise</li>
+</ul>
+</section>
+<section id="the-reformulation-backfired" class="slide level2 smaller">
+<h2>The reformulation backfired</h2>
+<ul>
+<li>Users didn’t stop using — they <strong>switched to heroin</strong>: cheaper per dose and suddenly more attractive (Alpert et al.&nbsp;2018; Evans et al.
+<ol start="2019" type="1">
+<li></li>
+</ol></li>
+<li>Wave 2’s timing lines up almost exactly with the 2010 reformulation</li>
+<li>Total overdose deaths did <strong>not</strong> fall — the composition shifted to a deadlier drug</li>
+<li>General lesson: squeezing one drug’s supply while demand is unchanged causes <strong>substitution</strong></li>
+</ul>
+</section>
+<section id="what-appear-to-be-effective-policies" class="slide level2">
+<h2>What appear to be effective policies?</h2>
+<div class="columns">
+<div class="column" style="width:37%;">
+<ul>
+<li><del>Initial prescription limits</del></li>
+<li><strong>Abuse-deterrent formulations</strong></li>
+<li>Prescription drug monitoring programs</li>
+</ul>
+</div><div class="column" style="width:63%;">
+<p><img data-src="img/lecture-17-slide-90.jpg" alt="Line chart of quarterly oxycodone shipments in milligrams per 1,000 from 2004:Q1 to 2014:Q4: shipments climb steadily from about 23 to a peak near 53, then a dotted vertical line marks a structural break at 2010:Q3 after which the actual and predicted series both bend downward to about 45; gray F-statistic dots peak at that same break."></p>
+</div></div>
+<div class="osu-src">
+<p>Quarterly oxycodone shipments, ARCOS data, with a structural break at the 2010:Q3 reformulation. Source: Evans, Lieber, and Power (2019), Figure 7a.</p>
+</div>
+</section>
+<section id="what-appear-to-be-effective-policies-1" class="slide level2">
+<h2>What appear to be effective policies?</h2>
+<div class="columns">
+<div class="column" style="width:37%;">
+<ul>
+<li><del>Initial prescription limits</del></li>
+<li><del>Abuse-deterrent formulations</del></li>
+<li>Prescription drug monitoring programs</li>
+</ul>
+</div><div class="column" style="width:63%;">
+<p><img data-src="img/lecture-17-slide-91.jpg" alt="Line chart of the monthly heroin death rate per 100,000 from 2004 to 2014: flat near 0.05 through 2010, then a dotted vertical line at 9/2010 marks a break after which the series accelerates sharply to about 0.31; gray F-statistic dots spike at the 9/2010 break, the same month the reformulated OxyContin arrived."></p>
+</div></div>
+<div class="osu-src">
+<p>Monthly heroin death rate, CDC multiple cause of death data, with a structural break at 9/2010 — the substitution effect. Source: Evans, Lieber, and Power (2019), Figure 2.</p>
+</div>
+</section>
+<section id="what-appear-to-be-effective-policies-2" class="slide level2">
+<h2>What appear to be effective policies?</h2>
+<div class="columns">
+<div class="column" style="width:37%;">
+<ul>
+<li><del>Initial prescription limits</del></li>
+<li><del>Abuse-deterrent formulations</del></li>
+<li><strong>Prescription drug monitoring programs</strong></li>
+</ul>
+</div><div class="column" style="width:63%;">
+<p><img data-src="img/opioid-prescribing-rate-cdc.jpg" alt="Line chart of the U.S. opioid prescribing rate per 100 persons: rising to a peak around 81 per 100 in 2010–2012, then falling steadily to about 59 per 100 by 2017; high-dosage prescriptions decline throughout."></p>
+</div></div>
+<div class="osu-src">
+<p>Annual opioid prescribing rate per 100 persons, U.S., 2006–2017. Source: CDC, Figure 1A.</p>
+</div>
+</section>
+<section id="prescription-drug-monitoring-programs" class="slide level2">
+<h2>Prescription drug monitoring programs</h2>
+<div class="columns">
+<div class="column" style="width:37%;">
+<ul>
+<li>A <strong>PDMP</strong>: a state database of every controlled-substance prescription — who prescribed, who dispensed, to whom</li>
+<li>Prescribing peaked around 2010–2012 and has fallen since</li>
+</ul>
+</div><div class="column" style="width:63%;">
+<p><img data-src="img/opioid-prescribing-rate-cdc.jpg" alt="Line chart of the U.S. opioid prescribing rate per 100 persons: rising to a peak around 81 per 100 in 2010–2012, then falling steadily to about 59 per 100 by 2017; high-dosage prescriptions decline throughout."></p>
+</div></div>
+<div class="osu-src">
+<p>Annual opioid prescribing rate per 100 persons, U.S., 2006–2017. Source: CDC.</p>
+</div>
+</section>
+<section id="only-must-access-pdmps-work" class="slide level2 smaller">
+<h2>Only <em>must-access</em> PDMPs work</h2>
+<div class="columns">
+<div class="column" style="width:37%;">
+<ul>
+<li>Voluntary PDMPs: doctors rarely checked → <strong>no detectable effect</strong></li>
+<li><strong>Must-access</strong> provisions (prescribers <em>required</em> to check): doctor shopping and extreme use measures fall</li>
+</ul>
+</div><div class="column" style="width:63%;">
+<p><img data-src="img/must-access-pdmp-effects.jpg" alt="Regression table showing that must-access PDMPs significantly reduce the probability of taking opioids, very-long-duration supply, overlapping claims, and having five or more prescribers or pharmacies, while PDMPs without a must-access provision show small, statistically insignificant effects."></p>
+</div></div>
+<div class="osu-src">
+<p>Effects of “must access” PDMPs on opioid misuse in Medicare Part D. Source: Buchmueller and Carey (2018), Table 6.</p>
+</div>
+</section>
+<section id="demand-side-scorecard" class="slide level2">
+<h2>Demand-side scorecard</h2>
+<table class="caption-top">
+<thead>
+<tr class="header">
+<th>Policy</th>
+<th>Verdict</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Initial Rx limits</td>
+<td>Binds, but modest effects</td>
+</tr>
+<tr class="even">
+<td>Abuse-deterrent formulation</td>
+<td>Backfired → heroin substitution</td>
+</tr>
+<tr class="odd">
+<td>PDMP (voluntary)</td>
+<td>Little to no effect</td>
+</tr>
+<tr class="even">
+<td>PDMP (must-access)</td>
+<td>Reduces misuse and shopping</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>Recurring theme: policies that ignore <strong>substitution</strong> disappoint</li>
+</ul>
+</section></section>
+<section>
+<section id="supply-side-evidence-australia" class="title-slide slide level1 osu-section center">
+<h1>Supply-side evidence: Australia</h1>
+
+</section>
+<section id="is-there-a-role-for-supply-side-reduction" class="slide level2">
+<h2>Is there a role for supply-side reduction?</h2>
+<ul>
+<li>Skeptic’s case: demand from addiction is highly <strong>inelastic</strong> — interdiction just raises prices and enriches traffickers</li>
+<li>Believer’s case: higher prices and scarcity must reduce use <em>somewhat</em> — the question is how much, and what replaces it</li>
+<li>Hard to test: U.S. enforcement changes are gradual and endogenous</li>
+<li>We need a big, sharp, unexpected supply shock… enter Australia</li>
+</ul>
+</section>
+<section id="australia-had-its-own-opioid-crisis" class="slide level2">
+<h2>Australia had its own opioid crisis</h2>
+<img data-src="img/australia-heroin-deaths-1990s.jpg" class="r-stretch" alt="Line chart of NSW opioid death rates rising from about 5 per 100,000 in 1990 to over 13 by 1999, with a marker showing deaths had eclipsed traffic fatalities as a cause of death by 1999.">
+<div class="osu-src">
+<p>Opioid-related deaths per 100,000, New South Wales, ages 15–54. Source: Moore and Schnepel (2021).</p>
+</div>
+</section>
+<section id="australia-had-its-own-opioid-crisis-1" class="slide level2">
+<h2>Australia had its own opioid crisis</h2>
+<img data-src="img/lecture-17-slide-96.jpg" class="r-stretch" alt="The same NSW opioid death series, now with a dashed blue line overlaying U.S. opioid-related deaths for 2007 to 2016 on a paired x-axis (1990/2007 through 1998/2015). The two epidemics track each other closely, both rising from about 6 to about 13 per 100,000 over nine years; the traffic-fatality marker is gone and a new blue bullet reads 'similar growth rate to recent US epidemic.'">
+<div class="osu-src">
+<p>NSW opioid-related deaths (ages 15–54) vs.&nbsp;U.S. opioid-related deaths, 2007–2016, aligned on years since the epidemic’s start. Source: Moore and Schnepel (2021); CDC.</p>
+</div>
+</section>
+<section id="australias-1990s-heroin-epidemic" class="slide level2">
+<h2>Australia’s 1990s heroin epidemic</h2>
+<ul>
+<li>Over <strong>75% heroin</strong>, widespread methadone treatment participation</li>
+<li>By 1999, opioid deaths had <strong>eclipsed traffic fatalities</strong> in NSW</li>
+<li>Growth rate over the 1990s looks almost exactly like the recent <strong>U.S. epidemic</strong> — a decade earlier and an ocean away</li>
+</ul>
+</section>
+<section id="tophat-predict-the-effect-of-a-supply-collapse" class="slide level2">
+<h2>TopHat: Predict the effect of a supply collapse</h2>
+<blockquote>
+<p>In early 2001, Australia’s heroin supply suddenly collapses and the price quadruples. Overdose deaths…</p>
+</blockquote>
+<ul>
+<li><strong>A.</strong> Fall briefly, then rebound as supply recovers</li>
+<li><strong>B.</strong> Fall sharply and stay low for years</li>
+<li><strong>C.</strong> Barely change — addicted users pay whatever it takes</li>
+<li><strong>D.</strong> Rise — users switch to more dangerous alternatives</li>
+</ul>
+</section>
+<section id="the-2001-heroin-shortage" class="slide level2">
+<h2>The 2001 heroin shortage</h2>
+<img data-src="img/lecture-17-slide-97.jpg" class="r-stretch" alt="NSW opioid-related deaths per 100,000 from 1990 to 2008, with a pale yellow band shading 1999 to 2001 labeled 'Australia's heroin shortage.' Deaths climb from about 6 to a peak of 13 in 1999, then collapse across the shaded band to under 5 by 2001 and stay near 3 to 4 for the rest of the decade.">
+<div class="osu-src">
+<p>Opioid-related deaths per 100,000, New South Wales, ages 15–54, 1990–2008. Source: Moore and Schnepel (2021).</p>
+</div>
+</section>
+<section id="the-2001-heroin-shortage-1" class="slide level2">
+<h2>The 2001 heroin shortage</h2>
+<img data-src="img/lecture-17-slide-98.jpg" class="r-stretch" alt="The same NSW opioid death series with a dashed black line added on a new right-hand axis for the purity-adjusted heroin dose price. The price sits near 50 per capita through the late 1990s, then spikes to about 250 exactly across the shaded 1999–2001 shortage band as deaths collapse, and stays between 170 and 280 afterward.">
+<div class="osu-src">
+<p>NSW opioid-related deaths and purity-adjusted heroin dose price. Source: Moore and Schnepel (2021).</p>
+</div>
+</section>
+<section id="the-2001-heroin-shortage-2" class="slide level2">
+<h2>The 2001 heroin shortage</h2>
+<img data-src="img/australia-heroin-shortage-price.jpg" class="r-stretch" alt="Dual-axis chart: the purity-adjusted heroin price roughly quadruples in late 2000 and early 2001 and stays high, while opioid deaths collapse from about 13 per 100,000 to under 5 and remain low through 2008. Bullets over the plot read: rapid change in heroin availability; roughly 400 percent increase in the pure price of heroin in late 2000 and early 2001; attributed to drug interdiction, with supply routes dismantled and large heroin seizures.">
+<div class="osu-src">
+<p>NSW opioid-related deaths and purity-adjusted heroin price. Source: Moore and Schnepel (2021).</p>
+</div>
+</section>
+<section id="what-happened-to-the-market" class="slide level2">
+<h2>What happened to the market</h2>
+<ul>
+<li>Purity-adjusted heroin price rose <strong>~400%</strong> in late 2000/early 2001</li>
+<li>Attributed to interdiction: supply routes dismantled, record seizures</li>
+</ul>
+</section>
+<section id="the-long-run-deaths-stayed-low" class="slide level2">
+<h2>The long run: deaths stayed low</h2>
+<img data-src="img/australia-longrun-mortality-offenses.jpg" class="r-stretch" alt="Two panels with the 2001 shortage shaded: opioid mortality drops sharply at the shortage and stays roughly 50 percent below its pre-period level for seven-plus years, while non-drug mortality is flat; opioid offense rates fall from about 0.03 to 0.01 and never recover.">
+<div class="osu-src">
+<p>Mortality by underlying cause and opioid offense rates, NSW, 1995–2008. Source: Moore and Schnepel (2021).</p>
+</div>
+</section>
+<section id="a-permanent-decline" class="slide level2">
+<h2>A permanent decline</h2>
+<ul>
+<li>Opioid deaths fell immediately and <strong>never rebounded</strong> — still far below pre-shortage levels seven years later</li>
+<li>Opioid offenses show the same permanent drop</li>
+</ul>
+</section>
+<section id="substitution-happened-here-too" class="slide level2">
+<h2>Substitution happened here too</h2>
+<img data-src="img/australia-cocaine-amphetamine-offenses.jpg" class="r-stretch" alt="Two panels around the shaded 2001 shortage: cocaine offenses spike briefly during the shortage and then fall back to baseline, while amphetamine offenses jump during the shortage and remain persistently higher afterward.">
+<div class="osu-src">
+<p>Cocaine and amphetamine offense rates, NSW, 1995–2008. Source: Moore and Schnepel (2021).</p>
+</div>
+</section>
+<section id="substitution-but-to-safer-drugs" class="slide level2">
+<h2>Substitution — but to safer drugs</h2>
+<ul>
+<li>Cocaine use spiked <strong>briefly</strong>, then faded</li>
+<li>Amphetamine use rose and <strong>persisted</strong> — substitution is real</li>
+<li>Crucial difference from the U.S.: the substitutes were <em>less lethal</em> than injected heroin, not more</li>
+</ul>
+</section>
+<section id="what-about-crime" class="slide level2">
+<h2>What about crime?</h2>
+<img data-src="img/australia-property-violent-offenses.jpg" class="r-stretch" alt="Two panels around the shaded 2001 shortage: property offenses climb briefly at the shortage's start, then decline steadily from about 0.2 to 0.07 over the following years; violent offenses spike during the shortage and then trend down below pre-period levels.">
+<div class="osu-src">
+<p>Property and violent offense rates, NSW, 1995–2008. Source: Moore and Schnepel (2021).</p>
+</div>
+</section>
+<section id="crime-fell-too" class="slide level2">
+<h2>Crime fell too</h2>
+<ul>
+<li>A brief spike as the market convulsed — then <strong>property crime fell by more than half</strong> over the following years</li>
+<li>Consistent with less income-generating crime to fund heroin use</li>
+</ul>
+</section>
+<section id="why-did-australias-supply-shock-work" class="slide level2 smaller">
+<h2>Why did Australia’s supply shock “work”?</h2>
+<ul>
+<li class="fragment">The shock was <strong>large, sudden, durable, and nationwide</strong> — not a local squeeze users could route around</li>
+<li class="fragment">Available substitutes (amphetamines) were <strong>less deadly</strong> than heroin</li>
+<li class="fragment"><strong>Treatment</strong> (methadone maintenance) was widely available to absorb demand</li>
+<li class="fragment">Contrast the U.S.: cracking down on pills pushed users toward heroin and fentanyl — substitutes that were <em>cheaper and deadlier</em></li>
+<li class="fragment">Supply-side policy can save lives — but only paired with the right substitution environment</li>
+</ul>
+</section></section>
+<section>
+<section id="deaths-of-despair" class="title-slide slide level1 osu-section center">
+<h1>Deaths of despair</h1>
+
+</section>
+<section id="the-bigger-backdrop-rising-midlife-mortality" class="slide level2">
+<h2>The bigger backdrop: rising midlife mortality</h2>
+<!-- TODO figure: Case-Deaton chart of all-cause mortality for U.S. non-Hispanic whites ages 45-54 rising after 1999 while other rich countries decline (not present in extracted lecture-17 or lecture-23-new image folders) -->
+<ul>
+<li>Case and Deaton (2015): all-cause mortality <em>rising</em> since the late 1990s for middle-aged white Americans without a college degree — unique among rich countries</li>
+<li>Driven by drugs, alcohol-related liver disease, and suicide — together, <strong>“deaths of despair”</strong></li>
+<li>Their story: decades of declining economic prospects for less-educated workers eroded health, family, and community</li>
+</ul>
+</section>
+<section id="is-the-economy-the-root-cause" class="slide level2">
+<h2>Is the economy the root cause?</h2>
+<ul>
+<li>Opioid abuse <em>is</em> countercyclical: as a county’s unemployment rate rises 1 point, opioid death rates rise ~3.6% (Hollingsworth, Ruhm, and Simon 2017)</li>
+<li>But changing economic conditions explain only a <strong>small share</strong> of the overall rise in drug deaths (Ruhm 2019)</li>
+<li>Despair may explain <em>who</em> is most vulnerable; <strong>supply</strong> — marketing, pills, heroin, fentanyl — explains the timing and scale</li>
+<li>Both matter: demand-side despair met an unprecedented supply shock</li>
+</ul>
+</section>
+<section id="putting-supply-and-demand-together" class="slide level2">
+<h2>Putting supply and demand together</h2>
+<ul>
+<li>Triplicate states: <strong>supply/marketing exposure</strong> created the crisis and its geography</li>
+<li>Reformulation and Rx crackdowns: demand persisted → <strong>substitution</strong> to deadlier drugs</li>
+<li>Australia: supply reduction saved lives <strong>when substitutes were safer and treatment was available</strong></li>
+<li>Serious policy needs <em>both</em> blades of the scissors: limit supply of the deadliest drugs <em>and</em> treat the underlying addiction</li>
+</ul>
+</section>
+<section id="recap-4" class="slide level2 smaller">
+<h2>Recap</h2>
+<ul>
+<li>Three waves: prescription opioids → heroin (2010) → fentanyl (2013); peak above 100,000 deaths/year</li>
+<li>Triplicate states are a <strong>natural experiment</strong>: less OxyContin marketing in 1996 → fewer overdose deaths for 20+ years</li>
+<li>Demand-side: must-access PDMPs help; ADF reformulation backfired via substitution</li>
+<li>Australia’s heroin shortage: a supply shock that cut deaths permanently — substitutes and treatment made the difference</li>
+<li>Deaths of despair: demand-side vulnerability, supply-side spark</li>
+</ul>
+</section>
+<section id="next-time" class="slide level2">
+<h2>Next time</h2>
+<ul>
+<li>We leave health for the <strong>environment</strong>: pollution externalities and health</li>
+<li>Why markets over-produce pollution — and what “big data” adds to measuring its harms</li>
+<li>Reading: Deryugina et al.&nbsp;(2019) on air pollution and mortality using wind direction</li>
+<li>Keep today’s toolkit handy: natural experiments are about to do a lot of work</li>
+</ul>
+
+
+</section></section>
+    </div>
+  <div class="quarto-auto-generated-content" style="display: none;">
+<div class="footer footer-default">
+
+</div>
+</div></div>
+
+  <script>window.backupDefine = window.define; window.define = undefined;</script>
+  <script src="../../site_libs/revealjs/dist/reveal.js"></script>
+  <!-- reveal.js plugins -->
+  <script src="../../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.js"></script>
+  <script src="../../site_libs/revealjs/plugin/pdf-export/pdfexport.js"></script>
+  <script src="../../site_libs/revealjs/plugin/reveal-menu/menu.js"></script>
+  <script src="../../site_libs/revealjs/plugin/reveal-menu/quarto-menu.js"></script>
+  <script src="../../site_libs/revealjs/plugin/quarto-support/support.js"></script>
+  
+
+  <script src="../../site_libs/revealjs/plugin/notes/notes.js"></script>
+  <script src="../../site_libs/revealjs/plugin/search/search.js"></script>
+  <script src="../../site_libs/revealjs/plugin/zoom/zoom.js"></script>
+  <script>window.define = window.backupDefine; window.backupDefine = undefined;</script>
+
+  <script>
+
+      // Full list of configuration options available at:
+      // https://revealjs.com/config/
+      Reveal.initialize({
+'controlsAuto': false,
+'previewLinksAuto': false,
+'pdfSeparateFragments': false,
+'autoAnimateEasing': "ease",
+'autoAnimateDuration': 1,
+'autoAnimateUnmatched': true,
+'jumpToSlide': true,
+'pdfMaxPagesPerSlide': 1,
+'menu': {"side":"right","useTextContentForMissingTitles":true,"markers":false,"loadIcons":false,"custom":[{"title":"Tools","icon":"<i class=\"fas fa-gear\"></i>","content":"<ul class=\"slide-menu-items\">\n<li class=\"slide-tool-item active\" data-item=\"0\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.fullscreen(event)\"><kbd>f</kbd> Fullscreen</a></li>\n<li class=\"slide-tool-item\" data-item=\"1\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.speakerMode(event)\"><kbd>s</kbd> Speaker View</a></li>\n<li class=\"slide-tool-item\" data-item=\"2\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>o</kbd> Slide Overview</a></li>\n<li class=\"slide-tool-item\" data-item=\"3\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.togglePdfExport(event)\"><kbd>e</kbd> PDF Export Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"4\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleScrollView(event)\"><kbd>r</kbd> Scroll View Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"5\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.keyboardHelp(event)\"><kbd>?</kbd> Keyboard Help</a></li>\n</ul>"}],"openButton":true},
+'smaller': false,
+ 
+        // Display controls in the bottom right corner
+        controls: true,
+
+        // Help the user learn the controls by providing hints, for example by
+        // bouncing the down arrow when they first encounter a vertical slide
+        controlsTutorial: false,
+
+        // Determines where controls appear, "edges" or "bottom-right"
+        controlsLayout: 'edges',
+
+        // Visibility rule for backwards navigation arrows; "faded", "hidden"
+        // or "visible"
+        controlsBackArrows: 'faded',
+
+        // Display a presentation progress bar
+        progress: true,
+
+        // Display the page number of the current slide
+        slideNumber: 'c/t',
+
+        // 'all', 'print', or 'speaker'
+        showSlideNumber: 'all',
+
+        // Add the current slide number to the URL hash so that reloading the
+        // page/copying the URL will return you to the same slide
+        hash: true,
+
+        // Start with 1 for the hash rather than 0
+        hashOneBasedIndex: false,
+
+        // Flags if we should monitor the hash and change slides accordingly
+        respondToHashChanges: true,
+
+        // Push each slide change to the browser history
+        history: true,
+
+        // Enable keyboard shortcuts for navigation
+        keyboard: true,
+
+        // Enable the slide overview mode
+        overview: true,
+
+        // Disables the default reveal.js slide layout (scaling and centering)
+        // so that you can use custom CSS layout
+        disableLayout: false,
+
+        // Vertical centering of slides
+        center: false,
+
+        // Enables touch navigation on devices with touch input
+        touch: true,
+
+        // Loop the presentation
+        loop: false,
+
+        // Change the presentation direction to be RTL
+        rtl: false,
+
+        // see https://revealjs.com/vertical-slides/#navigation-mode
+        navigationMode: 'linear',
+
+        // Randomizes the order of slides each time the presentation loads
+        shuffle: false,
+
+        // Turns fragments on and off globally
+        fragments: true,
+
+        // Flags whether to include the current fragment in the URL,
+        // so that reloading brings you to the same fragment position
+        fragmentInURL: false,
+
+        // Flags if the presentation is running in an embedded mode,
+        // i.e. contained within a limited portion of the screen
+        embedded: false,
+
+        // Flags if we should show a help overlay when the questionmark
+        // key is pressed
+        help: true,
+
+        // Flags if it should be possible to pause the presentation (blackout)
+        pause: true,
+
+        // Flags if speaker notes should be visible to all viewers
+        showNotes: false,
+
+        // Global override for autoplaying embedded media (null/true/false)
+        autoPlayMedia: null,
+
+        // Global override for preloading lazy-loaded iframes (null/true/false)
+        preloadIframes: null,
+
+        // Number of milliseconds between automatically proceeding to the
+        // next slide, disabled when set to 0, this value can be overwritten
+        // by using a data-autoslide attribute on your slides
+        autoSlide: 0,
+
+        // Stop auto-sliding after user input
+        autoSlideStoppable: true,
+
+        // Use this method for navigation when auto-sliding
+        autoSlideMethod: null,
+
+        // Specify the average time in seconds that you think you will spend
+        // presenting each slide. This is used to show a pacing timer in the
+        // speaker view
+        defaultTiming: null,
+
+        // Enable slide navigation via mouse wheel
+        mouseWheel: false,
+
+        // The display mode that will be used to show slides
+        display: 'block',
+
+        // Hide cursor if inactive
+        hideInactiveCursor: true,
+
+        // Time before the cursor is hidden (in ms)
+        hideCursorTime: 5000,
+
+        // Opens links in an iframe preview overlay
+        previewLinks: false,
+
+        // Transition style (none/fade/slide/convex/concave/zoom)
+        transition: 'none',
+
+        // Transition speed (default/fast/slow)
+        transitionSpeed: 'default',
+
+        // Transition style for full page slide backgrounds
+        // (none/fade/slide/convex/concave/zoom)
+        backgroundTransition: 'none',
+
+        // Number of slides away from the current that are visible
+        viewDistance: 3,
+
+        // Number of slides away from the current that are visible on mobile
+        // devices. It is advisable to set this to a lower number than
+        // viewDistance in order to save resources.
+        mobileViewDistance: 2,
+
+        // The "normal" size of the presentation, aspect ratio will be preserved
+        // when the presentation is scaled to fit different resolutions. Can be
+        // specified using percentage units.
+        width: 1050,
+
+        height: 700,
+
+        // Factor of the display size that should remain empty around the content
+        margin: 0.1,
+
+        // reveal.js plugins
+        plugins: [QuartoLineHighlight, PdfExport, RevealMenu, QuartoSupport,
+
+          RevealNotes,
+          RevealSearch,
+          RevealZoom
+        ]
+      });
+    </script>
+    <script>
+    // Theme runtime fixes.
+    document.addEventListener('DOMContentLoaded', function () {
+      // 1) Decorative alt for the slide logo (Quarto emits none).
+      document.querySelectorAll('img.slide-logo').forEach(function (img) {
+        if (!img.hasAttribute('alt')) {
+          img.setAttribute('alt', '');
+          img.setAttribute('role', 'presentation');
+        }
+      });
+    });
+    // 2) Reveal's r-stretch pass can run before images/webfonts finish loading,
+    //    leaving stretched figures at height 0. Re-run layout once everything
+    //    has actually loaded.
+    function osuRelayout() {
+      if (window.Reveal && Reveal.isReady && Reveal.isReady()) { Reveal.layout(); }
+    }
+    window.addEventListener('load', function () {
+      osuRelayout();
+      setTimeout(osuRelayout, 300);
+    });
+    if (document.fonts && document.fonts.ready) {
+      document.fonts.ready.then(osuRelayout);
+    }
+    </script>
+    <script id="quarto-html-after-body" type="application/javascript">
+      window.document.addEventListener("DOMContentLoaded", function (event) {
+        const tabsets =  window.document.querySelectorAll(".panel-tabset-tabby")
+        tabsets.forEach(function(tabset) {
+          const tabby = new Tabby('#' + tabset.id);
+        });
+        const isCodeAnnotation = (el) => {
+          for (const clz of el.classList) {
+            if (clz.startsWith('code-annotation-')) {                     
+              return true;
+            }
+          }
+          return false;
+        }
+        const onCopySuccess = function(e) {
+          // button target
+          const button = e.trigger;
+          // don't keep focus
+          button.blur();
+          // flash "checked"
+          button.classList.add('code-copy-button-checked');
+          var currentTitle = button.getAttribute("title");
+          button.setAttribute("title", "Copied!");
+          let tooltip;
+          if (window.bootstrap) {
+            button.setAttribute("data-bs-toggle", "tooltip");
+            button.setAttribute("data-bs-placement", "left");
+            button.setAttribute("data-bs-title", "Copied!");
+            tooltip = new bootstrap.Tooltip(button, 
+              { trigger: "manual", 
+                customClass: "code-copy-button-tooltip",
+                offset: [0, -8]});
+            tooltip.show();    
+          }
+          setTimeout(function() {
+            if (tooltip) {
+              tooltip.hide();
+              button.removeAttribute("data-bs-title");
+              button.removeAttribute("data-bs-toggle");
+              button.removeAttribute("data-bs-placement");
+            }
+            button.setAttribute("title", currentTitle);
+            button.classList.remove('code-copy-button-checked');
+          }, 1000);
+          // clear code selection
+          e.clearSelection();
+        }
+        const getTextToCopy = function(trigger) {
+          const outerScaffold = trigger.parentElement.cloneNode(true);
+          const codeEl = outerScaffold.querySelector('code');
+          for (const childEl of codeEl.children) {
+            if (isCodeAnnotation(childEl)) {
+              childEl.remove();
+            }
+          }
+          return codeEl.innerText;
+        }
+        const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+          text: getTextToCopy
+        });
+        clipboard.on('success', onCopySuccess);
+        if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+          const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+            text: getTextToCopy,
+            container: window.document.getElementById('quarto-embedded-source-code-modal')
+          });
+          clipboardModal.on('success', onCopySuccess);
+        }
+          var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+          var mailtoRegex = new RegExp(/^mailto:/);
+            var filterRegex = new RegExp('/' + window.location.host + '/');
+          var isInternal = (href) => {
+              return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+          }
+          // Inspect non-navigation links and adorn them if external
+         var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+          for (var i=0; i<links.length; i++) {
+            const link = links[i];
+            if (!isInternal(link.href)) {
+              // undo the damage that might have been done by quarto-nav.js in the case of
+              // links that we want to consider external
+              if (link.dataset.originalHref !== undefined) {
+                link.href = link.dataset.originalHref;
+              }
+                // target, if specified
+                link.setAttribute("target", "_blank");
+                if (link.getAttribute("rel") === null) {
+                  link.setAttribute("rel", "noopener");
+                }
+            }
+          }
+        function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+          const config = {
+            allowHTML: true,
+            maxWidth: 500,
+            delay: 100,
+            arrow: false,
+            appendTo: function(el) {
+                return el.closest('section.slide') || el.parentElement;
+            },
+            interactive: true,
+            interactiveBorder: 10,
+            theme: 'light-border',
+            placement: 'bottom-start',
+          };
+          if (contentFn) {
+            config.content = contentFn;
+          }
+          if (onTriggerFn) {
+            config.onTrigger = onTriggerFn;
+          }
+          if (onUntriggerFn) {
+            config.onUntrigger = onUntriggerFn;
+          }
+            config['offset'] = [0,0];
+            config['maxWidth'] = 700;
+          window.tippy(el, config); 
+        }
+        const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+        for (var i=0; i<noterefs.length; i++) {
+          const ref = noterefs[i];
+          tippyHover(ref, function() {
+            // use id or data attribute instead here
+            let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+            try { href = new URL(href).hash; } catch {}
+            const id = href.replace(/^#\/?/, "");
+            const note = window.document.getElementById(id);
+            if (note) {
+              return note.innerHTML;
+            } else {
+              return "";
+            }
+          });
+        }
+        const findCites = (el) => {
+          const parentEl = el.parentElement;
+          if (parentEl) {
+            const cites = parentEl.dataset.cites;
+            if (cites) {
+              return {
+                el,
+                cites: cites.split(' ')
+              };
+            } else {
+              return findCites(el.parentElement)
+            }
+          } else {
+            return undefined;
+          }
+        };
+        var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+        for (var i=0; i<bibliorefs.length; i++) {
+          const ref = bibliorefs[i];
+          const citeInfo = findCites(ref);
+          if (citeInfo) {
+            tippyHover(citeInfo.el, function() {
+              var popup = window.document.createElement('div');
+              citeInfo.cites.forEach(function(cite) {
+                var citeDiv = window.document.createElement('div');
+                citeDiv.classList.add('hanging-indent');
+                citeDiv.classList.add('csl-entry');
+                var biblioDiv = window.document.getElementById('ref-' + cite);
+                if (biblioDiv) {
+                  citeDiv.innerHTML = biblioDiv.innerHTML;
+                }
+                popup.appendChild(citeDiv);
+              });
+              return popup.innerHTML;
+            });
+          }
+        }
+      });
+      </script>
+    
+
+</body></html>
